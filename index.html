@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Comment Analysing system</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -19,16 +20,19 @@
     </header>
     <main>
         <section class="content">
-            <form id="youtubeForm">
+            <form id="videoForm">
                 <div class="form-group">
-                    <label for="youtubeLink">Enter YouTube Link:</label>
-                    <input type="text" id="youtubeLink" name="youtubeLink" placeholder="Paste YouTube link here" required>
+                    <label for="videoLink">Enter YouTube Link:</label>
+                    <input type="text" id="videoLink" placeholder="Paste YouTube link here" required>
                 </div>
                 <div class="form-group">
                     <button type="submit">Submit</button>
                 </div>
             </form>
+            <div id="video-container"></div>
         </section>
     </main>
 </body>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="script.js"></script>
 </html>
