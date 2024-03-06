@@ -1,91 +1,37 @@
-import re
-
-#Function to extract id from link
-def get_video_id_from_link(url):
-    # Regular expression pattern to extract YouTube video ID
-    pattern = r'(?:https?://)?(?:www\.)?(?:youtube\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([a-zA-Z0-9_-]{11})'
-    match = re.match(pattern, url)
-    if match:
-        return match.group(1)
-    else:
-        return None
-
-
-dev = "AIzaSyDI7YrA0IC-ehD9xWSloS-HMn4UT4cVEbI"
-
-import googleapiclient.discovery
-import pandas as pd
-#Pull all comments
-api_service_name = "youtube"
-api_version = "v3"
-DEVELOPER_KEY = dev
-
-youtube = googleapiclient.discovery.build(
-    api_service_name, api_version, developerKey=DEVELOPER_KEY)
-
-print("Enter video link")
-youtube_link=input()
-video_id = get_video_id_from_link(youtube_link)
-str(video_id)
-
-request = youtube.commentThreads().list(
-    part="snippet",
-    videoId=video_id,
-    maxResults=100
-)
-
-comments = []
-
-# Execute the request.
-response = request.execute()
-
-# Get the comments from the response.
-for item in response['items']:
-    comment = item['snippet']['topLevelComment']['snippet']
-    public = item['snippet']['isPublic']
-    comments.append([
-        comment['authorDisplayName'],
-        comment['publishedAt'],
-        comment['likeCount'],
-        comment['textOriginal'],
-        public
-    ])
-
-while (1 == 1):
-  try:
-   nextPageToken = response['nextPageToken']
-  except KeyError:
-   break
-  nextPageToken = response['nextPageToken']
-  # Create a new request object with the next page token.
-  nextRequest = youtube.commentThreads().list(part="snippet", videoId="-GJgqIJsTME", maxResults=100, pageToken=nextPageToken)
-  # Execute the next request.
-  response = nextRequest.execute()
-  # Get the comments from the next response.
-  for item in response['items']:
-    comment = item['snippet']['topLevelComment']['snippet']
-    public = item['snippet']['isPublic']
-    comments.append([
-        comment['authorDisplayName'],
-        comment['publishedAt'],
-        comment['likeCount'],
-        comment['textOriginal'],
-        public
-    ])
-
-df = pd.DataFrame(comments, columns=['author', 'updated_at', 'like_count', 'text','public'])
-df.info()
-
-response['items'][0]
-
-print(df.head(100))
-
-#Sort by likes and get top 10
-df.sort_values(by='like_count', ascending=False)[0:10]
-
-#Printing comments in descending order on the basis of most liked comments
-print(df.sort_values(by='like_count', ascending=False)[0:10])
-
-df.to_csv("/workspaces/Youtube-Comments-Analysing-System/comments.csv")
-
-
+,author,updated_at,like_count,text,public
+0,@sumanthreddy7361,2024-01-09T04:56:49Z,0,Please tell me all topics in ai  as soon as possible sir,True
+1,@whatyoulikeishere2409,2024-01-09T03:09:12Z,1,The best teaching channel ever❤🎉,True
+2,@nithyareddyvlogs5946,2023-10-06T16:24:44Z,0,Sir start DS and AE,True
+3,@kusumak-oi1rt,2023-10-05T15:36:03Z,0,sir please complete the whole syallbus sir..🙏🙏🙏,True
+4,@proplayersssp9666,2023-07-29T07:59:39Z,0,pl explain knowledge representation and techniques topic,True
+5,@vinotha367,2023-04-18T05:40:05Z,0,Really excellent sir!!! U r rocking in convey th matter in Simple English..,True
+6,@sahilsanjayjain5589,2023-02-01T14:31:47Z,0,plz tell in hindi,True
+7,@josephmobeto,2022-11-28T08:55:04Z,0,3hrs lecture made simple in 12mins thank you very important😇🥰,True
+8,@narayanamurthy9938,2022-11-17T15:58:18Z,0,Tips to pass ai I need it sir,True
+9,@ramyasridevineelisetti2214,2022-11-07T17:11:21Z,0,sir please make videos on DAA .u r videos are very helpful sir,True
+10,@thehackerssite6618,2022-10-08T14:15:21Z,8,ENGINEERING DRIVE is not a channel its an emotion ❤❤❤,True
+11,@bharatmatakijai3846,2022-10-07T04:28:02Z,0,sir we want depth concept of ARTIFICIAL INTELLIGENCE,True
+12,@VijayKumar-hx2qi,2022-08-05T11:44:19Z,0,Sir aithee ee videos intermediate second year vallake kadaa ee branch teeskovalli... Btech lo anni,True
+13,@VijayKumar-hx2qi,2022-08-05T11:43:28Z,0,Sir aithe ee videos intemidiate second year vallakee kadaa next year ee branch teeskovallani.. Anni,True
+14,@chittaboinaakhilayadav2611,2022-04-03T07:45:03Z,0,Sir can u explain wed technology subject . please 😌,True
+15,@darshan8118,2022-03-23T14:40:23Z,1,Fabulous job sir..... Really... Am getting interest for seeing all ur videos... Pls continue 🙏👏,True
+16,@auvlogs9652,2022-02-16T02:59:19Z,0,Sir make videos on Webtechnology,True
+17,@madhuarji7902,2022-01-11T14:55:44Z,0,"Sir plzz do a video on ECET preparation for diploma students sir which is very usefu and helpful for us in your words 😌
+Lots of love from vizag 😍😇",True
+18,@BTADADHITHYAS,2021-12-16T12:27:22Z,0,I am b tech artificial intelligence and data science student first year 👦📖🎒student,True
+19,@srinivasvasu6086,2021-11-29T11:53:18Z,0,Sir pls upload ai material sir r19,True
+20,@545sathishchowhan9,2021-11-16T13:49:57Z,0,Sir make some series of videos in c++ language,True
+21,@vighneshav1021,2021-11-12T04:23:16Z,1,"Sir, AI notes isn't there in the playlist!!",True
+22,@carelessgirl3549,2021-10-16T02:31:31Z,0,Tqq sir🙏💖,True
+23,@SumitSharma-ko7zq,2021-10-15T04:24:02Z,0,Best class sir,True
+24,@paidimarrisrinivasulu3459,2021-10-12T10:46:48Z,2,Extremely thankful sir for this starting the course.. and introduction session is very good sir 👍👍👍,True
+25,@kishannaik6766,2021-10-12T06:18:04Z,0,Sir a video or series on data science also sir 🙏🙏,True
+26,@gunaofficial8294,2021-10-12T04:25:59Z,0,🙏,True
+27,@jyothikajaldu1455,2021-10-11T13:39:11Z,1,Sir please give brief knowledge about each and every topic in AI sir. In previous semester I followed your co playlist in this u have given only some topics. So give brief knowledge about every topic in AI  so that we will get good knowledge,True
+28,@shaikasifa5383,2021-10-11T13:29:59Z,2,Sir upload Data Science sir plzzzz sir,True
+29,@therex8384,2021-10-11T12:54:23Z,2,Thanq Sir Iam Waiting For this Now Iam Btech 3rd year,True
+30,@thisisrinivas,2021-10-11T11:29:02Z,2,"Superb introduction class 🙏
+Really Wow!",True
+31,@rahulponnam911,2021-10-11T11:08:53Z,0,Sir I completed my 12th and I didn't took admission in any engineering college and any degree college I want to learn cse in nptel I'm I eligible for it I'm also interested to write UPSC in future but it needs degree is nptel enough for it please answer my question sir,True
+32,@Ateeq10,2021-10-11T11:01:13Z,14,I am ready to watch the full series of Artificial intelligence,True
+33,@sailakshmikakinada3797,2021-10-11T10:40:40Z,3,Hi sir good evng,True
