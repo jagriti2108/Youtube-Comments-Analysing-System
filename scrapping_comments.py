@@ -89,3 +89,36 @@ print(df.sort_values(by='like_count', ascending=False)[0:10])
 df.to_csv("/workspaces/Youtube-Comments-Analysing-System/comments.csv")
 
 
+
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import pandas as pd
+
+# Load your comments from the CSV file
+comments_df = pd.read_csv('comments.csv')
+
+# Create a SentimentIntensityAnalyzer object
+analyzer = SentimentIntensityAnalyzer()
+
+# Define a function to get sentiment scores and labels
+def get_sentiment(text):
+    scores = analyzer.polarity_scores(text)
+    compound_score = scores['compound']
+
+    if compound_score >= 0.05:
+        return 'positive'
+    elif compound_score <= -0.05:
+        return 'negative'
+    else:
+        return 'neutral'
+
+# Apply the sentiment analysis function to each comment
+comments_df['Sentiment'] = comments_df['text'].apply(get_sentiment)
+
+# Display the results
+print(comments_df)
+
+
+
+
+
+
