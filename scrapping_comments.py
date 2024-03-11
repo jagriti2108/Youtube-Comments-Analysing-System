@@ -1,5 +1,4 @@
 import re
-
 #Function to extract id from link
 def get_video_id_from_link(url):
     # Regular expression pattern to extract YouTube video ID
@@ -76,7 +75,7 @@ while (1 == 1):
 df = pd.DataFrame(comments, columns=['author', 'updated_at', 'like_count', 'text','public'])
 df.info()
 
-response['items'][0]
+# response['items'][0]
 
 print(df.head(100))
 
