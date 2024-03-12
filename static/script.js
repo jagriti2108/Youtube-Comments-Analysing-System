@@ -154,3 +154,74 @@ function analyzeOverallSentiment(comments) {
         return 'Mixed feedback for the video.';
     }
 }
+
+function findSubscribersAndNonSubscribers(comments) {
+    //Function to find subscribers who commented and non-subscribers who commented
+    var subscribersCount = 0;
+    var nonSubscribersCount = 0;
+
+    comments.forEach(comment => {
+        // Use the 'is_subscriber' property to determine if the commenter is a subscriber
+        if (comment.is_subscriber) {
+            subscribersCount++;
+        } else {
+            nonSubscribersCount++;
+        }
+    });
+
+    return {
+        subscribersCount: subscribersCount,
+        nonSubscribersCount: nonSubscribersCount,
+    };
+}
+
+function updateSubscribersGraph(data) {
+    //updating subscribers and non subscribers graph
+    var ctx = document.getElementById('subscribersGraph').getContext('2d');
+    var subscribersGraph = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Subscribers', 'Non-Subscribers'],
+            datasets: [{
+                label: 'Subscribers vs Non-Subscribers',
+                data: [data.nonSubscribersCount, data.subscribersCount],
+                backgroundColor: ['green', 'red'],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+}
+
+function displaySubscribersAndNonSubscribers(comments) {
+    //displaying subscribers and non-subscribers
+    var subscribersAndNonSubscribersDiv = document.getElementById('subscribersAndNonSubscribers');
+    subscribersAndNonSubscribersDiv.innerHTML = '<h3>Subscribers and Non-Subscribers who commented:</h3>';
+
+    var subscribersAndNonSubscribers = findSubscribersAndNonSubscribers(comments);
+
+    // subscribersAndNonSubscribersDiv.innerHTML += '<p>Subscribers: ' + subscribersAndNonSubscribers.subscribersCount + '</p>';
+    // subscribersAndNonSubscribersDiv.innerHTML += '<p>Non-Subscribers: ' + subscribersAndNonSubscribers.nonSubscribersCount + '</p>';
+
+    updateSubscribersGraph(subscribersAndNonSubscribers);
+}
+
+// Modify the displayResults function to call the new function
+function displayResults(data) {
+    if (Array.isArray(data.comments)) {
+        displaySentimentPieChart(data.comments);
+        displayPositiveNegativeComments(data.comments);
+        displayMostLikedComments(data.comments);
+        displayVideoFeedback(data.comments);
+        displaySubscribersAndNonSubscribers(data.comments);
+    } else {
+        resultsDiv.innerHTML += '<p>No comments data available.</p>';
+    }
+}
+
