@@ -11,7 +11,7 @@ def index():
 def analyze():
     if request.method == 'POST':
         youtube_link = request.form['videoLink']
-        developer_key = "AIzaSyBC4qWUlwUM-NpHGomWK7GrMfjixo2DD0c"  
+        developer_key = "AIzaSyDI7YrA0IC-ehD9xWSloS-HMn4UT4cVEbI"  
         analysis_results = analyze_comments(youtube_link, developer_key)
         return jsonify(analysis_results)
 

@@ -6,6 +6,10 @@
     <title>YouTube Comment Analysis System</title>
     <!-- Include Chart.js library -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Include moment.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <!-- Include the moment.js date adapter for Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
@@ -34,25 +38,20 @@
         </section>
     </main>
 
-    <!-- Placeholder for Sentiment Pie Chart -->
-    <div>
-        <h3>Sentiment Analysis</h3>
-        <canvas id="sentimentPieChart" width="50" height="50"></canvas>
-    </div>
-
-    <!-- Placeholder for Positive and Negative Comments -->
+    <!--Sentiment Pie Chart -->
+    <div><canvas id="sentimentPieChart" width="50" height="50"></canvas></div>
+    <!-- Positive and Negative Comments -->
     <div id="positiveComments"></div>
     <div id="negativeComments"></div>
-
-    <!-- Placeholder for Most Liked Comments -->
+    <!-- comments with time -->
+    <canvas id="timeSeriesAnalysisChart" width="800" height="400"></canvas>
+    <!-- Most Liked Comments -->
     <div id="mostLikedComments"></div>
-
-    <!-- Placeholder for Video Feedback -->
-    <div id="videoFeedback"></div>
-
-    <!-- Placeholder for subsNonsubs -->
+    <!-- subsNonsubs -->
     <div id="subscribersAndNonSubscribers"></div>
     <canvas id="subscribersGraph" width="400" height="200"></canvas>
+    <!--Video Feedback -->
+    <div id="videoFeedback"></div>
     
     <script src="/static/script.js"></script>
 </body>
