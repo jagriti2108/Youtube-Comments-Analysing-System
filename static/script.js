@@ -40,6 +40,10 @@ function displaySentimentPieChart(comments) {
         }
     });
 
+     //Display Sentiment Analysis 
+     var positiveCommentsDiv = document.getElementById('sentimentanalysis');
+     positiveCommentsDiv.innerHTML = '<h3>Sentiment Analysis:</h3>';
+
     // Display pie chart
     var ctx = document.getElementById('sentimentPieChart').getContext('2d');
     var sentimentChart = new Chart(ctx, {
