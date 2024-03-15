@@ -65,21 +65,36 @@ function displaySentimentPieChart(comments) {
 }
 
 function displayPositiveNegativeComments(comments) {
-    // Display some positive and negative comments
+    // Sort comments by polarity
+    comments.sort((a, b) => {
+        return b.Polarity - a.Polarity; // Descending order
+    });
+
+    // Display top 3 positive and top 3 negative comments
     var positiveCommentsDiv = document.getElementById('positiveComments');
     var negativeCommentsDiv = document.getElementById('negativeComments');
 
     positiveCommentsDiv.innerHTML = '<h3>Positive Comments:</h3>';
     negativeCommentsDiv.innerHTML = '<h3>Negative Comments:</h3>';
 
-    comments.forEach(comment => {
-        if (comment.Sentiment === 'positive' && positiveCommentsDiv.children.length < 5) {
+    var positiveCount = 0;
+    var negativeCount = 0;
+
+    for (let i = 0; i < comments.length; i++) {
+        const comment = comments[i];
+        if (comment.Sentiment === 'positive' && positiveCount < 3) {
             positiveCommentsDiv.innerHTML += `<p>${comment.text}</p>`;
-        } else if (comment.Sentiment === 'negative' && negativeCommentsDiv.children.length < 5) {
+            positiveCount++;
+        } else if (comment.Sentiment === 'negative' && negativeCount < 3) {
             negativeCommentsDiv.innerHTML += `<p>${comment.text}</p>`;
+            negativeCount++;
         }
-    });
+        if (positiveCount === 3 && negativeCount === 3) {
+            break; // Stop iterating if both positive and negative limits are reached
+        }
+    }
 }
+
 
 
 
@@ -109,6 +124,17 @@ function extractTimeSeriesData(comments) {
 
 function displayTimeSeriesAnalysis(comments) {
     const timeSeriesData = extractTimeSeriesData(comments);
+
+    // Create heading element
+    var heading = document.createElement('h3');
+    heading.textContent = 'Time Series Analysis of Comments:';
+
+    // Get the container element for the chart canvas
+    var container = document.getElementById('timeSeriesAnalysisChart').parentNode;
+
+    // Append the heading before the chart canvas
+    container.insertBefore(heading, document.getElementById('timeSeriesAnalysisChart'));
+
     // Display time series analysis chart
     var ctxTimeSeries = document.getElementById('timeSeriesAnalysisChart').getContext('2d');
     var timeSeriesChart = new Chart(ctxTimeSeries, {
@@ -149,6 +175,7 @@ function displayTimeSeriesAnalysis(comments) {
         },
     });
 }
+
 
 
 

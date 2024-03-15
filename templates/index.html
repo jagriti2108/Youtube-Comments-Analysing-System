@@ -28,15 +28,18 @@
         <h1>YouTube Comments Analyzing System</h1>
     </header>
     <main>
-        <section class="content">
+        <section id="videoSection" class="content">
+            <div id="videoDetails">
+                <!-- Video details will be dynamically inserted here -->
+            </div>
             <form id="videoForm" onsubmit="event.preventDefault(); analyzeVideo();">
                 <div class="form-group">
                     <label for="videoLink">Enter YouTube Link:</label>
                     <input type="text" id="videoLink" placeholder="Paste YouTube link here" required>
                 </div>
                 <div class="form-group">
-                    <button id="submitButton" type="submit">Submit
-                    </button>
+                    <button id="submitButton" type="submit">Submit</button>
+                </div>
             </form>
             <div id="analysisResults"></div>
         </section>
@@ -53,16 +56,11 @@
         <div id="mostLikedComments"></div>
         <!-- subsNonsubs -->
         <div id="subscribersAndNonSubscribers"></div>
-            <canvas id="subscribersGraph" class="chart" width="400" height="200"></canvas>
-        
-        <!--Video Feedback -->
+        <canvas id="subscribersGraph" class="chart" width="400" height="200"></canvas>
+        <!-- Video Feedback -->
         <div id="videoFeedback"></div>
-
-
     </main>
-
 
     <script src="/static/script.js"></script>
 </body>
-
 </html>
