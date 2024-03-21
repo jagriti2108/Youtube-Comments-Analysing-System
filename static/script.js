@@ -279,22 +279,44 @@ function displayVideoFeedback(comments) {
 }
 
 
-
 function displayResults(data) {
     var resultsDiv = document.getElementById('analysisResults');
-    resultsDiv.innerHTML = ''; //Clear previous results
+    resultsDiv.innerHTML = ''; // Clear previous results
 
     // Check if data and video_info are present
     if (data && data.video_info) {
-        // Display video information
-        resultsDiv.innerHTML += `<h2>${data.video_info.title}</h2>`;
-        resultsDiv.innerHTML += `<img src="${data.video_info.thumbnail}" alt="Video Thumbnail">`;
-        resultsDiv.innerHTML += `<p><a href="${data.video_info.link}" target="_blank">View Video</a></p>`;
+        // Extract video ID from YouTube link
+        var videoId = extractVideoId(data.video_info.link);
+        
+        // Fetch video details using YouTube Data API
+        fetchVideoDetails(videoId)
+            .then(videoData => {
+                // Display video information
+                var videoTitle = videoData.items[0].snippet.title;
+                var videoThumbnail = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+                var youtubeLink = data.video_info.link;
+
+                var videoContainer = document.createElement('div');
+                videoContainer.innerHTML = `
+                    <h2>${videoTitle}</h2>
+                    <a href="${youtubeLink}" target="_blank">
+                        <img src="${videoThumbnail}" alt="${videoTitle}" width="250px" height="210px">
+                    </a>
+                `;
+                resultsDiv.appendChild(videoContainer);
+            })
+            .catch(error => {
+                console.error('Error fetching video details:', error);
+                resultsDiv.innerHTML += '<p>Error fetching video details.</p>';
+            });
     } else {
         resultsDiv.innerHTML += '<p>Unable to retrieve video information.</p>';
         return;
     }
 
+
+
+    
     // Check if data.comments is an array
     if (Array.isArray(data.comments)) {
         displaySentimentPieChart(data.comments);  
@@ -307,8 +329,27 @@ function displayResults(data) {
         resultsDiv.innerHTML += '<p>No comments data available.</p>';
     }
 }
+function extractVideoId(videoLink) {
+    // Extract video ID from YouTube link
+    var videoId = videoLink.split('v=')[1];
+    var ampersandPosition = videoId.indexOf('&');
+    if (ampersandPosition !== -1) {
+        videoId = videoId.substring(0, ampersandPosition);
+    }
+    return videoId;
+}
 
+async function fetchVideoDetails(videoId) {
+    // Fetch video details using YouTube Data API
+    // var apiKey = 'AIzaSyBC4qWUlwUM-NpHGomWK7GrMfjixo2DD0c';
+    // var apiKey = 'AIzaSyDI7YrA0IC-ehD9xWSloS-HMn4UT4cVEbI';
+    // var apiKey = 'AIzaSyDoVR86a1nMWTAcMXfnoZF-QYdO3JqaCfU'
+    var apiKey = 'AIzaSyDoVR86a1nMWTAcMXfnoZF-QYdO3JqaCfU';
+    var apiUrl = `https://www.googleapis.com/youtube/v3/videos?id=${videoId}&part=snippet&key=${apiKey}`;
 
-
+    var response = await fetch(apiUrl);
+    var data = await response.json();
+    return data;
+}
 
 

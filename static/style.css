@@ -85,3 +85,18 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.chart{
+    width:50vw;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    /* width:50vw; */
+    /* height:50vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    
+}
