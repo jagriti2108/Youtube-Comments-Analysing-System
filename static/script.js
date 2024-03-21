@@ -41,8 +41,8 @@ function displaySentimentPieChart(comments) {
     });
 
      //Display Sentiment Analysis 
-     var positiveCommentsDiv = document.getElementById('sentimentanalysis');
-     positiveCommentsDiv.innerHTML = '<h3>Sentiment Analysis:</h3>';
+     //var positiveCommentsDiv = document.getElementById('sentimentanalysis');
+     //positiveCommentsDiv.innerHTML = '<h3>Sentiment Analysis:</h3>';
 
     // Display pie chart
     var ctx = document.getElementById('sentimentPieChart').getContext('2d');
@@ -62,6 +62,7 @@ function displaySentimentPieChart(comments) {
             },
         },
     });
+    document.getElementById('firstBox').style.display = 'block';
 }
 
 function displayPositiveNegativeComments(comments) {
@@ -300,7 +301,7 @@ function displayResults(data) {
                 videoContainer.innerHTML = `
                     <h2>${videoTitle}</h2>
                     <a href="${youtubeLink}" target="_blank">
-                        <img src="${videoThumbnail}" alt="${videoTitle}" width="250px" height="210px">
+                        <img src="${videoThumbnail}" alt="${videoTitle}" width="450px" height="200px">
                     </a>
                 `;
                 resultsDiv.appendChild(videoContainer);

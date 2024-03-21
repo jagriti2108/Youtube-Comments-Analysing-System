@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #173f5f;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -32,12 +32,12 @@ nav a {
 }
 
 main {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* max-width: 800px; */
+    /* margin: 20px auto; */
+    background-color: #173f5f;
+    padding: 10px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .content {
@@ -93,10 +93,24 @@ button:hover {
     justify-content: center;
 }
 
-.video{
-    /* width:50vw; */
-    /* height:50vh; */
-    /* display: flex; */
-    /* justify-content: center; */
-    
+h2{
+    color: white;
+}
+
+.firstBox{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: 2px solid white;
+    margin: 50px;
+}
+
+#positiveComments{
+    width:20vw;
+    border:2px solid white;
+}
+#negativeComments{
+    width:20vw;
+    border:2px solid white;
 }
