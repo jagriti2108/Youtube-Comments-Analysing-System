@@ -52,7 +52,7 @@ function displaySentimentPieChart(comments) {
             labels: ['Positive', 'Negative', 'Neutral'],
             datasets: [{
                 data: [positiveCount, negativeCount, neutralCount],
-                backgroundColor: ['green', 'red', 'gray'],
+                backgroundColor: ['#11a8ab', '#e64c65', '#fcb150'],
             }],
         },
         options: {
@@ -62,7 +62,7 @@ function displaySentimentPieChart(comments) {
             },
         },
     });
-    document.getElementById('firstBox').style.display = 'block';
+    document.getElementById('firstBox').style.display = 'flex';
 }
 
 function displayPositiveNegativeComments(comments) {
@@ -225,7 +225,7 @@ function updateSubscribersGraph(data) {
             datasets: [{
                 label: 'Subscribers vs Non-Subscribers',
                 data: [data.nonSubscribersCount, data.subscribersCount],
-                backgroundColor: ['green', 'red'],
+                backgroundColor: ['#11a8ab', '#e64c65'],
                 borderWidth: 1
             }]
         },

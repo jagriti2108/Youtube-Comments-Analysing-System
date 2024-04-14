@@ -91,6 +91,7 @@ button:hover {
     height:50vh;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 h2{
@@ -98,19 +99,59 @@ h2{
 }
 
 .firstBox{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    border: 2px solid white;
+    border: 2px solid #1f253d;
+    border-radius: 10px;
     margin: 50px;
+    background-color: #1f253d;
+
+
 }
 
 #positiveComments{
-    width:20vw;
-    border:2px solid white;
+    width:23vw;
+    height: 60vh;
+    margin: auto;
+    color: white;
+    padding: 5px;
+    background-color: #394264;
+    border: 2px solid #394264;
+    border-radius: 10px;
+    box-shadow: 5px 5px #677194; 
+    
+    
 }
 #negativeComments{
-    width:20vw;
-    border:2px solid white;
+    width:23vw;
+    height: 60vh;
+    margin: auto;  
+    color: white;
+    padding: 5px;
+    background-color: #394264;
+    border: 2px solid #394264;
+    border-radius: 10px;
+    box-shadow: 5px 5px #677194; 
+}
+
+
+/* .secondBox{
+    height: 40vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: 2px solid #1f253d;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: #1f253d;
+} */
+
+
+#timeSeriesAnalysisChart{
+    height: 200px;
+    width: 400px;
 }
