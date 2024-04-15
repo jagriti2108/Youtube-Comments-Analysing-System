@@ -56,6 +56,13 @@ function displaySentimentPieChart(comments) {
             }],
         },
         options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        color: 'white'
+                    }
+                }
+            },
             title: {
                 display: true,
                 text: 'Sentiment Analysis',
@@ -144,13 +151,21 @@ function displayTimeSeriesAnalysis(comments) {
             labels: timeSeriesData.map(data => data.timestamp),
             datasets: [{
                 label: 'Number of Comments Over Time',
+                backgroundColor: "white",
                 data: timeSeriesData.map(data => data.count),
-                borderColor: 'blue',
+                borderColor: 'white',
                 borderWidth: 2,
                 fill: false,
             }],
         },
         options: {
+            plugins: {
+                legend: {
+                    labels: {
+                        color: 'white'
+                    }
+                }
+            },
             scales: {
                 x: {
                     type: 'time',
@@ -165,8 +180,14 @@ function displayTimeSeriesAnalysis(comments) {
                         display: true,
                         text: 'Date', // Change the x-axis title to 'Date'
                     },
+                    ticks: {
+                        color: "white"
+                    },
                 },
                 y: {
+                    ticks: {
+                        color: "white"
+                    },
                     title: {
                         display: true,
                         text: 'Number of Comments',
@@ -224,16 +245,31 @@ function updateSubscribersGraph(data) {
         data: {
             labels: ['Subscribers', 'Non-Subscribers'],
             datasets: [{
-                label: 'Subscribers vs Non-Subscribers',
+                label: '',
                 data: [data.nonSubscribersCount, data.subscribersCount],
                 backgroundColor: ['#11a8ab', '#e64c65'],
+                borderColor: "white",
+                
                 borderWidth: 1
             }]
         },
         options: {
+            plugins: {
+                legend: {
+                    display: false // Hide legend
+                }
+            },
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    ticks: {
+                            color: "white"
+                    }
+                },
+                x:{
+                    ticks:{
+                        color: "white"
+                    }
                 }
             }
         }
