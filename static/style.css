@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-    color: #333;
+    color: white;
 }
 
 header {
@@ -107,6 +107,8 @@ h2{
     border-radius: 10px;
     margin: 50px;
     background-color: #1f253d;
+    width: 80vw;
+    height: 70vh;
 
 
 }
@@ -136,22 +138,27 @@ h2{
     box-shadow: 5px 5px #677194; 
 }
 
-
-/* .secondBox{
-    height: 40vh;
+.mostLikedComments{
+    height: 70vh;
     width: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+    background-color: #1f253d;
+    margin: auto;
+    flex-direction: column;
     border: 2px solid #1f253d;
     border-radius: 10px;
-    margin: 50px;
-    background-color: #1f253d;
-} */
-
-
-#timeSeriesAnalysisChart{
-    height: 200px;
-    width: 400px;
+    padding: 0px 20px;
 }
+
+.videoFeedback{
+    height: 30vh;
+    width: 80vw;
+    background-color: #1f253d;
+    margin: auto;
+    flex-direction: column;
+    border: 2px solid #1f253d;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+
+

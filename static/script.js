@@ -191,6 +191,7 @@ function displayMostLikedComments(comments) {
     for (var i = 0; i < Math.min(5, sortedComments.length); i++) {
         mostLikedCommentsDiv.innerHTML += `<p>${sortedComments[i].text} - ${sortedComments[i].like_count} likes</p>`;
     }
+    document.getElementById('mostLikedComments').style.display = 'flex';
 }
 
 
@@ -246,6 +247,7 @@ function displaySubscribersAndNonSubscribers(comments) {
 
     var subscribersAndNonSubscribers = findSubscribersAndNonSubscribers(comments);
     updateSubscribersGraph(subscribersAndNonSubscribers);
+
 }
 
 
@@ -277,6 +279,8 @@ function displayVideoFeedback(comments) {
 
     var videoFeedbackDiv = document.getElementById('videoFeedback');
     videoFeedbackDiv.innerHTML = `<h3>Video Feedback:</h3><p>${overallSentiment}</p>`;
+
+    document.getElementById('videoFeedback').style.display = 'flex';
 }
 
 
