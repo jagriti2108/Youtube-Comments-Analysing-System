@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #1f253d;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -160,5 +160,10 @@ h2{
     padding: 0px 20px;
 }
 
+#subscribersAndNonSubscribers{
+    text-align: center;
+}
 
-
+canvas#timeSeriesAnalysisChart{
+    width: 70vw;
+}

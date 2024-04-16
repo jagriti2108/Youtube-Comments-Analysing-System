@@ -136,6 +136,7 @@ function displayTimeSeriesAnalysis(comments) {
     // Create heading element
     var heading = document.createElement('h3');
     heading.textContent = 'Time Series Analysis of Comments:';
+    heading.style.textAlign = 'center';
 
     // Get the container element for the chart canvas
     var container = document.getElementById('timeSeriesAnalysisChart').parentNode;
@@ -151,9 +152,9 @@ function displayTimeSeriesAnalysis(comments) {
             labels: timeSeriesData.map(data => data.timestamp),
             datasets: [{
                 label: 'Number of Comments Over Time',
-                backgroundColor: "white",
+                backgroundColor: "#11a8ab",
                 data: timeSeriesData.map(data => data.count),
-                borderColor: 'white',
+                borderColor: '#11a8ab',
                 borderWidth: 2,
                 fill: false,
             }],
@@ -179,6 +180,7 @@ function displayTimeSeriesAnalysis(comments) {
                     title: {
                         display: true,
                         text: 'Date', // Change the x-axis title to 'Date'
+                        color: 'white'
                     },
                     ticks: {
                         color: "white"
@@ -191,6 +193,7 @@ function displayTimeSeriesAnalysis(comments) {
                     title: {
                         display: true,
                         text: 'Number of Comments',
+                        color: 'white'
                     },
                 },
             },
@@ -301,11 +304,11 @@ function analyzeOverallSentiment(comments) {
     });
 
     if (positiveCount > negativeCount) {
-        return 'Overall positive feedback for the video!';
+        return 'The overall feedback for the video is predominantly positive. Viewers appreciated the content, finding it engaging and informative. They expressed satisfaction with the presentation and found the video helpful. Positive sentiment was evident throughout, highlighting a favorable response to the content.';
     } else if (negativeCount > positiveCount) {
-        return 'Overall negative feedback for the video.';
+        return 'The overall feedback for the video is predominantly negative. Viewers raised concerns and criticism, expressing dissatisfaction with various aspects of the content. They highlighted areas for improvement and voiced disappointment with the presentation. Negative sentiment was prevalent, indicating a less favorable response to the content.';
     } else {
-        return 'Mixed feedback for the video.';
+        return 'The overall feedback for the video is mixed. Viewers had varied opinions, with both positive and negative comments present. Some expressed appreciation for certain aspects, while others raised concerns. Feedback was diverse, reflecting a range of viewpoints and reactions to the content.';
     }
 }
 
@@ -392,5 +395,3 @@ async function fetchVideoDetails(videoId) {
     var data = await response.json();
     return data;
 }
-
-
