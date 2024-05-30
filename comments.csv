@@ -1,512 +1,185 @@
 ,author,updated_at,like_count,text,public,is_subscriber
-0,@brainlyhacker9566,2024-03-13T03:20:57Z,0,❤🎉,True,
-1,@manish.m1829,2024-03-13T01:10:16Z,13,Legendary students are watching  2hrs before  board 2024😂😅,True,
-2,@adiyantgaming1662,2024-03-12T15:59:09Z,9,Legends are watching at 10:00 am on 13th march 😂,True,"Like, Share and subscribe"
-3,@AryanYadavFFINDIA,2024-03-11T10:26:46Z,8,6:22 sir isme odd / eve wala logic bhi lga skte hai na if-else ka use karke?? PLEASE TELL SIR 🙂,True,"Hey, Be Safe and Happy 🙄, I hope You will be entertained with my Gaming Videos 🤩.
-Let's Complete 1k Together."
-4,@avishekchakraborty8289,2024-03-09T08:39:56Z,6,"This, the first video I watched back in class 8 and now, roughly a week is left for my 12th boards computer paper, its been an amazing experience Alok sir, thank you!",True,ded XX
-5,@jitendraharbola9773,2024-03-03T11:12:17Z,0,Sir ye series kse add hogi iske liye variable bnana pdega kya?,True,Please subscribe my you tube channel.
-6,@parasverma2237,2024-02-28T13:01:49Z,1,Sir I awesome,True,
-7,@manjusharma3041,2024-02-25T07:37:49Z,1,Thanks you sir 🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏,True,
-8,@arpitaghosh01988,2024-02-20T14:02:41Z,0,Sir is actually a maa ka ladla beta,True,
-9,@PiyushKumar-ux3ck,2024-02-19T21:51:19Z,0,❤️❤️,True,
-10,@affanbhai6177,2024-02-16T19:00:49Z,1,"Bas yahi sign aur factorial wala concept dhund ra tha sir
-Do no sath mein hi bata diya aapne to",True,Hat Banda hai allowed
-11,@rajeshpundir9686,2024-02-13T11:51:22Z,0,Thank you sir tomorrow is my computer exam 😅 you are great teacher ❤,True,
-12,@SaranshKumarThakur,2024-01-11T09:54:50Z,0,thank you sir  for the wonderful explanation,True,
-13,@user-gy8wt1fo7l,2024-01-02T08:02:12Z,3,"1-2+3-4...n terms
-This program can be done in another way:-
-class S
-{ 
-    public static void main(int n)
-     {
-         int sum=0;
-         for(int i=1;i<=n;i++)
-          {
-            sum+=(i%2==0?-i:i);
-           }
-            System.out.print(sum);
-       }
-}",True,
-14,@KRISHNAKITCHEN208,2023-12-18T16:35:39Z,0,Nice entry,True,Tasty foods
-15,@aryan_.1,2023-12-15T16:12:31Z,2,Best teacher award 👏,True,Subcrive my channel
-16,@a_sgamer2,2023-12-14T18:53:27Z,0,Thank u sir me watching the video 6 hrs before exam at 12:23 am😢,True,
-17,@yishaibhagat125,2023-10-27T18:43:28Z,0,He deserves more subscribers😢,True,
-18,@_shreyooooo_,2023-10-14T19:06:32Z,0,Thank You So Much Sir 🙏,True,"UPSC ❤️
+0,@laveenaaswani4601,2024-05-30T08:53:04Z,0,Meri dadi ko toh aapke vlogs bohut pasand ha jab bi mein vlog dekhti hu toh vo bi mere saath dekhti ❤❤,True,
+1,@arshiyakhan8100,2024-05-30T08:46:31Z,0,100% agree with the people spreading negativity.. it really feels bad seeing comment section of some youtubers.. idk how they deal with it.. mentally bht strong hona hota hai to take it.. 😢,True,
+2,@NehaKumari-ez5tf,2024-05-30T08:42:29Z,0,Karan ki sasu ma usko bhut pyar  kregi dimple jiska hota h,True,
+3,@aliyajabeen8533,2024-05-30T08:41:09Z,0,Face reveal kb krenge ??💗💗,True,
+4,@veronikaarya,2024-05-30T08:39:23Z,0,Tata salt lena nhi dikhaya😜🫣😀,True,
+5,@aliyajabeen8533,2024-05-30T08:38:59Z,0,❤❤❤❤,True,
+6,@kirankhatri9717,2024-05-30T08:34:56Z,0,My lunch is incomplete without your vlogs guys❤❤,True,
+7,@pariyankapalawat,2024-05-30T08:21:49Z,0,Very good thing you told about people commenting negative,True,
+8,@prafullarebello6749,2024-05-30T08:16:38Z,1,"Nice vlog , where is rishi and family ,",True,
+9,@harpreetkaur7312,2024-05-30T08:13:03Z,0,Done,True,
+10,@kiranveryfairdecisionthada1590,2024-05-30T08:09:08Z,0,❤❤❤❤love 2 see your vlog.everytime.u.stay positiv..god bless.your whole.family..❤❤❤❤,True,
+11,@vandanatrivedi31,2024-05-30T07:59:20Z,0,Hi mam can you please make video on your first trimester?? As I requested earlier also I want suggestion from you Bevan I am also pregnant ☺️,True,
+12,@shalusaroopa195,2024-05-30T07:52:27Z,0,Luv u guys❤❤❤❤❤❤,True,
+13,@snigdharoy6124,2024-05-30T07:47:58Z,0,"Aman and Iti app dono itna positive ho, itna khus ho dekhke bohot achha lagta hain.. apke mummy sachme kitna achha hain.. papa vi.. ❤",True,
+14,@rajnipahuja4164,2024-05-30T07:47:21Z,0,Well said🙏,True,
+15,@dhwanidhimar15,2024-05-30T07:47:08Z,0,Aunty is sooo beautiful ❤,True,"Welcome to ""Food Physiology With Dhwani""! 🌶️🍗🌍
+
+Embark on a flavorful journey as we blend Indian traditions with global tastes! 🇮🇳🌎
+
+Discover the best of veg and non-veg delicacies, with two videos uploaded every week. 🍳🥗🍲
+
+Explore foreign recipes with an Indian twist and savor authentic Indian dishes. 🌮🍛🍱
+
+Join Dhwani in her kitchen escapades, celebrating the art and science of food! 👩‍🍳🔬
+
+Subscribe now for a lip-smacking experience, uniting food and physiology. 🔔👨‍🔬🍽️
+
+Welcome to a world of flavors, one plate at a time! 🍴✨
+
+Join us at ""Food Physiology With Dhwani"" and let's cook up something extraordinary! 🎉🎬
+
+Stay connected: [dhwanidhimar41@gmail.com] 📩💬
+
+Happy Cooking! 🥂🍳🤗
+"
+16,@mythor..thegsd7147,2024-05-30T07:45:21Z,0,Positive vibes ❤❤,True,"Welcome to the channel ""My Thor.. The GSD"" - the ultimate destination for all dog lovers and enthusiasts!
+Meet Thor, my lovable German Shepherd, as he takes you on a journey filled with wagging tails , playful antics and heartwarming moments.This channel is dedicated to showcasing the life and unique personality of Thor, the four-legged star of my life.
+Join my channel for a growing community of dog lovers! share your own experiences,ask questions and connect with Thor.We'd love to have you as part of our pack!
+Subscribe now to our channel ""My Thor the GSD"" hit the bell icon to stay updated and be a part of our existing journey together!
+
+🐶🐻🐕#thor
+               #german
+               #shepherd
+               #funny
+               #dog
+               #shorts
+               #love
+               #video
+               #viral
+               #trending
+               #reaction
+               #gsd
+               #emotional
+               #youtube"
+17,@artiverma0925,2024-05-30T07:27:14Z,0,What a thought about negative comments 👍🏻👏🏻👏🏻👏🏻👏🏻 impressed 👍🏻🧿,True,
+18,@lavanyasrivastava9363,2024-05-30T07:10:20Z,0,Aap jo kr reh bhut acha kr reh ho bhaiya .puri family ko haste rhena itti di ko support krna ..we all love that...❤..aur hum ayodhya wasiyon k liye proud ki baat hai ki ittne achi youtuber hamari hi city m hai aaplog jaise❤❤❤..lots of love 💕.,True,
+19,@Lakhneet233,2024-05-30T07:09:41Z,0,Aman Bhai ko jo galt bole use bda Galt koi nhi kiyu ki o hardam aapne volge m sirf aucha ciz sikhate hai,True,
+20,@rajmole3990,2024-05-30T07:09:24Z,0,Luv u Aman bhai❤,True,
+21,@vaishalisingla1156,2024-05-30T07:04:46Z,0,Mere mind m b 141 hi aya,True,
+22,@asmamusaddiq2791,2024-05-30T07:00:37Z,2,Yes Aman bhaiya ur mom ka beauty superb hain iti mam kay bhen hain bolenge gai aap kay mom ko superb kaisa aisa manege karle te hain aap kay mom hats off ur mom Aman bhau,True,
+23,@asmamusaddiq2791,2024-05-30T06:57:17Z,1,Iti mam aap bahut cute aur hamesha saasu mom ki tarah smiling face ur superb girl,True,
+24,@asmamusaddiq2791,2024-05-30T06:56:47Z,2,Aman aur iti aap logon superb superb couple aweosme jodi hain ur baby lucky kay aap jaise parent hoo aur Aman kay mom also superb unki smile se ghar pura ronak ajate hain ur family superb ur so positive,True,
+25,@karmbirsandhu9605,2024-05-30T06:55:09Z,0,Waheguru g 🙏 ❤️,True,
+26,@rashi4587,2024-05-30T06:54:38Z,0,Beautiful family....,True,
+27,@shaheenansari6044,2024-05-30T06:52:48Z,1,"Baby k bade hone tk...bohot sare struggles , sacrifices face krne padenge...tb jake baby bda hota h...i m also a mom ... & I face it...",True,
+28,@aditiiiii7163,2024-05-30T06:49:35Z,0,❤❤,True,
+29,@payalsingh5191,2024-05-30T06:45:04Z,0,🥰🥰,True,
+30,@nilofarraish6713,2024-05-30T06:44:03Z,0,beautiful family ❤️😍,True,
+31,@Sakshi_Sisodiya,2024-05-30T06:34:28Z,0,looking cute trio together 💕❤️,True,"Heyy ! my name is Sakshi 💕 
+Here just for fun ❤️"
+32,@RuchiSharma25,2024-05-30T06:31:50Z,0,Beautiful mom ❤,True,
+33,@sonubhavnarajpoot2648,2024-05-30T06:30:59Z,0,"सच है,लोग अच्छा नहीं बोल सकते तो कम से कम बुरा, दिल दुखाने वाला काम तो न करो।
+आपके परिवार में यही सबसे अच्छा लगता फ्रेंडली विहेवियर एक दूसरे के प्रति पॉजिटिविटी रहती है ❤",True,
+34,@Yakshita86,2024-05-30T06:26:16Z,0,Aman bhaiya and iti di honestly u guys are just awesome....i love u guys...lots of love from vishakapatnam❤,True,
+35,@sakshisachan928,2024-05-30T06:24:40Z,0,Bahut acchi baat boli apne ki hume positivity spread krni chaiye but ye negativity social media se bhi bahut aati h jo log prank videos bnate h ya scripted vlog krte h natural incidence se jada fakeness lgti h sb gyan dene me lge hue h apni expertise chhodh kr aur sbse jada to confusion create krta h social media aur audience ko bhi ab smjh aata h kon real h kon fake .....and youtube ka aisa algorithm h ki ap jaise videos dekhoge apko vaise hi remmondation krta but  aisa hota h hume apke vlog acche lgte aur dusra vlog h vo nhi accha lgta usko not recommend krne ke baad bhi youtube feed me la deta h tb gussa lgti h aur vo gussa nhi vo logo ki irritation h jo comments me bahr aati h mostly influencers ya vloggers hypocrite hote h hume unhe dekhte h but vo paise ke liye promotion hi krte rehte h products ka hr vlog me aur audience k baare me na soch kr vo apne liye sochte h sirf .......sorry to say I used to see glam girls vlogs of usme hr  new video pe promotion thik h ghar chlana h but itna bhi kya upr se prank videos bhi scripted h in their channel uncle aunty real lgte h just like your mother .....so difference audience ko pta chlta h ki kon real kr rha h kon sirf content jabardarti ka bnane ki kosish kr rha h vaise bhi log frustrated rehte h kaam se apne youtube instagram me bhi vhi sb dekho aj kl to limelight aur viral hone ke liye log kuch bhi kr rhe h .....but there are some people who deliberately bring negativity to the comments ...,True,
+36,@PoojaKumari-rn3pb,2024-05-30T06:18:57Z,0,"Ye Jo aapne bola n aap ek GHATIYA aadmi bnnte jaa rahe ho....Best tha... mtlab best tha❤
+Maine ye feel Kiya h kisi ki burayi karke khud ko hi low energy feel hota h....Hmko pta v nhi hota hmara aura negative ho jaata h....",True,
+37,@user-ot3po8xs3t,2024-05-30T06:09:12Z,3,Iti di ki delvry normal hui h ya. By operate .plz bhiya reply .kowlege k liy puchri hu,True,
+38,@CookwithRaghav,2024-05-30T06:08:36Z,1,Iti ka brain dekhka lag raha hai...baby ka naam tejas ekdum sahi rakha hai....wo boht jabrdast clever hone wala hai....sahi m,True,"Hey friendzz,
+I make videos on Cooking, Food Challenges,Fun And Activities, Games,Learning Nd Much More...
+Easy and instant receipes and quick nd best learning methods is what I prefer
+I Started my channel when I was 2.9 year old  kid but entertaining nd making you all learn is what I love...
+ Watch and enjoy my videos.
+
+Thankyou for stoping by ,Please subscribe and stick to my channel !
+
+
+To get in touch,
+email me at - payalmalani2711@gmail.com
+Instagram - payal_malani2711
+Facebook- Payal Keshav Malani
+
+Do comment -Like-Share-Subscribe
+XOXO
+RAGHAV MALANI(Maa ka ladla)"
+39,@rashmimishra9036,2024-05-30T06:08:14Z,0,आपके व्लॉग देखकर मैं अपना दुख भूल जाती हूँ बहुत positive फील होता है आप एक दिन नहीं डालते वीडियो फिर भी चैनल पर जाकर चेक करती थी अब अपने रोज़ डालना शुरू किया अच्छ किया 😊,True,"I am a small town girl  dreaming of making videos... Please support.. 
+Note-यहां सब माया है! न तेरा न मेरा, जो है सब-आपसे , आपका और आप  ही के लिए ही है| 
+Follow me on Instagram 👉rashmitiwaimzp"
+40,@_stormi_,2024-05-30T06:02:56Z,2,Sunny bhaiya harry potter ke victor krum jaise lgte h mujhe lg rha h harry potter mei kahi toh dekha h sunny bhaiya jaisa koi 😅😄😄♥️,True,"Hey! Peaceful souls 💚
+ 
 
 "
-19,@enaksheesaha8775,2023-09-29T00:26:00Z,0,Watching this 3 hours before exam,True,Love yourself.
-20,@PadlebhaiTimeNahihai,2023-09-22T09:45:00Z,1,worst computer teacher in the world,True,
-21,@sanskritigusain1784,2023-09-17T17:12:07Z,0,Thank you sir ❤,True,Mini crafty world
-22,@StMarysConventgzp,2023-09-13T23:37:36Z,0,"Thankyou 
-sir",True,
-23,@elvisalbert7272,2023-08-31T13:21:18Z,0,future physics wallah😇,True,
-24,@shreyash5010,2023-07-20T08:39:32Z,0,Entry was legend sir😂😂,True,"Hi guys
+41,@rinkisehrawat3393,2024-05-30T06:00:17Z,0,nice reply to all haters .,True,
+42,@shreyaaaa18,2024-05-30T05:58:52Z,0,Sooo true Aman kisike bare me bura nai bolna chaiye 🤗🤗🤗 sahi bola apne,True,
+43,@Rupali11991,2024-05-30T05:58:37Z,0,"I love cute girl (Aman's mom)... I really want to meet Aunty when I will visit Ram mandir , I will try to meet u all 🤞",True,
+44,@pooja_gupta92,2024-05-30T05:57:25Z,0,Aap log ayodhya mei rhte h kya,True,"Hello everyone, Namaste friends 🙏 I am Pooja Devang Gupta I live in mohammadi kheri uttar Pradesh and welcome you all to my YouTube channel.I am an Indian mom blogger and I share my daily routine along with cooking , recipes,cleaning, organization ,travel and kitchen tips and tricks 
+
+
+
+Please like, share, comment, subscribe to my channel and don't forget to hit the 🔔 icon to get future notification "
+45,@Rupali11991,2024-05-30T05:56:37Z,0,U are one of the best vloggers❤❤❤... I love Tejasswi Prakash vlogs and ur vlogs ❤❤❤.... Such a positive vloggers apke toh jaldi se 100k ho Jane chahiye and many more...Sab jaldi se subscribe kro ❤,True,
+46,@vrindagupta3693,2024-05-30T05:55:07Z,0,❤❤❤,True,
+47,@Deepanshikalkal,2024-05-30T05:52:06Z,0,"I’m preparing for Some Competitive Exam and a lot of things keep swimming in my mind 24/7 But whenever I see Thissss pretty lady’s smile…My ITI dii’s smile A wave of calmness surrounds me…I don’t know what happened but I’m so attached to you guyz. I love you..Will definitely meet you one day,!!♥️🧿🕉️",True,
+48,@SuhaniPandey_1308,2024-05-30T05:51:17Z,1,"Aman bhaiya boht h positive msg diya h aapne🙌🏻💛
+Ab bs log smjhe to acha h",True,"Hey!🧸🩷
+Plz like ,share and subscribe🎀
+ "
+49,@ektasharma7190,2024-05-30T05:49:11Z,0,❤❤❤❤❤❤,True,
+50,@ludhanisfamily3814,2024-05-30T05:48:07Z,0,1st comment Itti &aman congratulations to you both .. love to watch your vlog . Aunty is so sweet.love from Dubai ❤️,True,"Welcome to our YouTube channel !  I'm Renu Ludhani, a proud homemaker and a mother of two wonderful kids Shitij & Pihu ], living in the beautiful city of Dubai. Join us as we share our family's lifestyle filled with #cooking, #travel, and everything in between!
+As a homemaker, I love creating a warm and loving home for my family, and in this channel, you'll get a glimpse of our daily life in Dubai. From cooking up delicious meals in the kitchen to embarking on exciting travel adventures in and around the Country India , we'll be sharing it all with you!
+
+Get ready for family-friendly content, including , travel tips, and lots of fun moments from our everyday life in Dubai. We hope our videos bring joy, inspiration, and a sense of togetherness to all of you.
+
+So, hit that subscribe button and turn on the notification bell to join us on this incredible journey of homemaking in Dubai. Thank you for being a part of our YouTube family, and we can't wait to share our adventures with you!
 "
-25,@blaster6984,2023-07-09T02:38:52Z,0,Sir i didn't understand the last one,True,
-26,@Scrolll_some__vids,2023-04-29T14:42:03Z,0,Can we take i=0;i<=n; i++;,True,
-27,@sdey200,2023-04-20T07:09:19Z,0,Sir can u tell me difference between term and limit... Plz,True,
-28,@aditya_vis__,2023-03-26T13:50:22Z,0,Tomorrow exam be like🤣🤣,True,"                                                                                                  ||HELLO GUYS||
-||TO KAISE  HAI APP LOG APP KO IS CHANNEL PAR ||GARENA FREE FIRE OR BGMI SE RELATED VIDEO MILEGE BUS APP KO VIDEO ENJOY KAR NA HAI AGAR HO SAKE TO VIDEO LIKE OR CHANNEL KO SUBSCRIBE KAR DENA APP KE BHAI KO BHUT MOTIVATION MILTA HAI ..
-#Free Fire #BGMI
-||THANK YOU💕💕||
-  🍌🍌🍌🍌🍌🍌
-"
-29,@KV_art188,2023-03-23T03:10:46Z,1,Entry 😂😂,True,Fjj
-30,@King.Jhingru2207,2023-03-23T01:42:49Z,7,Legends watching 3 hrs before 2023 boards,True,
-31,@amankumarkoysaak6343,2023-03-23T01:38:27Z,0,Entry was 👌,True,
-32,@sqx7158,2023-03-22T17:23:26Z,2,😂😂😂 nice entry,True,"Hello , Everyone here you can find everything what content you want 
+51,@pushpagupta8841,2024-05-30T05:45:34Z,3,18th May ko aap ka baby born hua tha??,True,Pushpa
+52,@vinitakumarihistorystoryle1769,2024-05-30T05:45:00Z,0,"In previous video how to complete with jaggery, it should be melt as mudhi laddu or what? 
+Because I too after watching completed all rough power of dry fruits and gond, but how to bind as laddu? Please suggest",True,
+53,@kashishraj2053,2024-05-30T05:39:40Z,0,Aman bhaiya aap bhaut cute the apne childhood ma ekdam golu molu❤ now I understood why your name is monu 😊,True,Original channel
+54,@drishtikriplani6616,2024-05-30T05:32:52Z,0,Satnam Shri Wahe Guru,True,
+55,@meenakshidubey4345,2024-05-30T05:30:34Z,0,"beta aman jiss ghar me bado ko samman or pyar diya jaata hai wahaa iswar ka vaas hota hai aap ke ghar me iswar ka vaas hai😊.
+beta aap ne apne bete ko apni mom ki tarah banne ke liye kahaa aap ne humara dill jeet liya.parmatma aap ko har khushi denge❤❤❤❤.",True,
+56,@KanchanSharma015,2024-05-30T05:27:48Z,0,Iti's & her sister looks so so so same🥹♥️,True,"In the tapestry of my life, I am an extroverted explorer, guided by an insatiable curiosity and a genuine love for connecting with people.Singing is my solace, where melodies become vessels for my emotions and a means to express my triumphs and sorrows. The world is my canvas, and I am the brush, painting vivid strokes of experiences across its vast expanse. From the hidden corners of quaint towns to the majestic heights of soaring peaks, I immerse myself in the beauty of the unknown, embracing the thrill of discovery.With an unyielding spirit, I embark on a journey to chase the wonders of the world, embracing the thrill of discovery and cherishing the lessons learned along the way. Join me as we unravel the mysteries, celebrate diverse cultures, and weave our stories into the fabric of destiny.🧿♥️"
+57,@learnwithnagma,2024-05-30T05:25:41Z,0,"Bhaiya, mera bhi answer correct tha , mene bhi 141 socha tha ❤. I am so happy 😄.",True,
+58,@NidhiTiwari-qz4fx,2024-05-30T05:23:39Z,0,Soo lovely vlog 😊😊,True,
+59,@GauravKindra-tg3dh,2024-05-30T05:23:05Z,0,Congratulations both of you hamesha khush raho,True,
+60,@nehajoshi23569,2024-05-30T05:22:46Z,0,Congratulations to you both...sending lots of love and wishes from Bhopal ❤,True,I love to sing and also create my own music at times...thanks to YouTube so that I will be able to share this love of mine with you all💕
+61,@Divyanshiyadavofficial,2024-05-30T05:21:39Z,0,Aman bhaiya aapka sens of humor is😂 next level..,True,"Let's Love D life😘😍😎🤩
+DiVyAnZi_💚.."
+62,@rainehamlet9608,2024-05-30T05:21:35Z,0,Char sal bad ! jaldi aa gye 😂,True,
+63,@ritadhungana6128,2024-05-30T05:19:07Z,0,❤❤❤❤,True,
+64,@Ritusharma0612,2024-05-30T05:16:19Z,0,Your family always stays positive.. God bless your family ❤,True,
+65,@Unicorn_women,2024-05-30T05:04:02Z,0,God bless you to our Tejas ❤,True,"Hi Everyone!
+We Make videos on Women's fashion and styles every Friday and Saturday.
+Hope you like and support our small initiative...
+Please follow us on Instagram and subscribe our channel.
+Hit Like button and share with your loved ones...
 
-*Music
-*Status
-*Games
 
-If you want any other content please mail me : sayandeeproy6029@gmail.com
-                                OR
-Do let me know in the comment section
-
-Thank you❤️😉
-"
-33,@brokensoul1536,2023-03-22T17:07:00Z,1,What an entry 🤣💀,True,Hinduism is not a religion its a way of living life... JAI SREE RAM ❤️🕉️
-34,@Sumit-vt3vt,2023-03-22T13:24:54Z,0,Thankyou so much sir ❤❤stay blessed..!!!😊😊,True,
-35,@_armaghan_._.khan07,2023-03-22T13:19:38Z,1,This videos will never get old.. Hatts offff sir,True,
-36,@visheshyadav2571,2023-03-22T13:16:16Z,1,"Sir you are so innocent and hard working and i am telling you will get success very soon becuause a child,s blessing i listened by god",True,
-37,@videoshub356,2023-03-22T13:01:04Z,8,Watching this video and trying to compare the situation 3 years ago with current vdos.......you are really doing it sir.... confidence level increasing with every vdoo....*smartness too*😅.....from white board to screen...just amazing...... I wish apse personally pdh pata........keep going we'll keep supporting..best wishes sir❤,True,
-38,@simrat0_038,2023-03-22T11:22:26Z,1,WELL DONE KOHLI BHAIIII ♥,True,hello friends i am a gaming youtuber and i post games songs live stream etc. and please subscribe me .
-39,@dawsonm804,2023-03-15T19:11:14Z,1,yo sir i never thought u would even teach computers thx sir i got my stress down coz of u,True,
-40,@gaurijati,2023-03-01T01:36:34Z,0,Sir please teach in our school 😩🙌,True,🦀
-41,@aryanverma1770,2023-02-14T00:38:32Z,1,"The time at which l am watching this video - 7:30am
-Time at which my computer paper will start - 7:40am",True,
-42,@Aargz2007,2023-02-05T08:42:25Z,0,W intro,True,"I am a typical indian teenager who watches anime and draws.
-This is the place where i blatantly rant."
-43,@ajeetkumargupta1427,2023-01-31T20:38:45Z,0,Sir you teach very well I like the way you entered the class,True,
-44,@ramansharma5696,2023-01-18T13:54:14Z,0,Thnks sir stay blessed,True,
-45,@ramansharma5696,2023-01-18T13:53:56Z,0,Fibonnaci series,True,
-46,@Peach10001,2023-01-12T14:15:19Z,1,Sir got spawned 😂😂....thanks sir you made me laugh I was having a bad day❤,True,
-47,@anupchowdhury8450,2023-01-04T19:39:13Z,0,Sir where do u live,True,
-48,@SANTANI686,2023-01-04T14:07:46Z,1,😊,True,"Har Har Mahadev 🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩 
-Satya Sanatan Vedic Dharm ki jai 🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🕉️🕉️🕉️🕉️"
-49,@anshpandey24,2022-12-25T13:22:25Z,0,He is the future alakh pandey for sure,True,Pdhai shala a new world beginss
-50,@taufiquekhan8272,2022-12-22T18:28:08Z,0,Running out of words to say something ❣️.,True,
-51,@HarendraSingh-be7nr,2022-12-17T12:31:35Z,1,Sir you ka numbeerka,True,
-52,@vaibhavgaming_yt,2022-12-01T14:39:20Z,0,Thank u you just helped me a lot. I can't understand how to appreciate. You helped me a lot in hw.,True,
-53,@petpuja5559,2022-11-23T15:38:41Z,0,You can explain much more,True,"Subscribe PetPuja 😍 so that we can make your PetPuja delicious 😋
-We are going to cover SASTA or ACHA street food of all INDIA 🔥 may be one day but now we are going to serve you tasty Lucknowi Food 😍
-
-Owner & Founder
-Shanu chaurasiya
-Siddharth Singh 
-
-#petpuja"
-54,@ak_bg1654,2022-10-31T15:49:12Z,2,"It was very helpfull, thx sir",True,"Welcome to Ak_bg 
-Thank u to show intrest in my channel 
-
-This channel is for only gaming of bg
-In future may be open new channels for other games 
-
-Subscribe my channel and like my videos 
-
-Goal is 100 subs in this month ending (March)
-
-My insta id :
-Ankhan8225
-
-My bg id : 
-3345750176
-
-Trying to upload best content for u guys
-
-Thanks for support"
-55,@iqbalahmad3294,2022-09-16T04:22:03Z,0,Sir please upload the video on kaprekar number and triangular number pleaseeeee,True,
-56,@shreyaagarwal8143,2022-08-28T09:19:15Z,0,Thank you Sir,True,😇
-57,@ashmitrobinguitarist4775,2022-08-14T08:54:05Z,2,"In 2nd program we can give a condition also instead of taking a variable ""sign"":
-*if (i%2==0)*
-*Sum= Sum-i;*
-*else*
-*Sum= Sum+i;*
-In even no. We can print negative sign and in odd no. we can print positive sign. It is correct or not??? Pls reply???",True,"Hello Guys my name is Ashmit Robin hope you all like my videos. I make videos on Guitar cover, singing, songs. This is a music channel. If you have craze in music you should watch my videos ☺️☺️
 
 "
-58,@purnimasrivastava2762,2022-07-15T07:30:01Z,2,Thank you so much sir you explained it too well that we will never forget this convept,True,
-59,@eco89,2022-07-08T08:41:27Z,0,"int input = 10;
-		int sum =0;
-		
-		for(int i=1;i<=input;i++) {
-			
-			int temp =i;
-			if(temp%2==0) {
-				temp=-temp;
-			}
-			sum = sum+temp;
-		}
-		System.out.println(""output is ""+ sum);
-	}",True,
-60,@prembhandari487,2022-06-12T08:46:29Z,4,Thanks a lot sir. This is the best video 1 day before exam🤣😂,True,
-61,@music_world2112,2022-05-20T03:20:00Z,0,Sir please suggest me a good book on Advanced questions in jAVA,True,
-62,@music_world2112,2022-05-20T03:19:16Z,15,"Sir I am a CS student at University of Calcutta,I followed you in my during my ISC,it helped me to develop a good thinking pattern to solve problems..",True,
-63,@kambojshorts5305,2022-05-17T12:08:17Z,0,Sir thank you so much you helped me in my exams,True,"
-              "
-64,@tunocrazeswastik1774,2022-05-07T10:12:05Z,0,"Sir plzzzzzzzzzzzzzzzz write a program to find sum of series 
-S = 1/3 + 1/5 + 1/8 + 1/12 +......+ 1/30. 
-Sir plzzzzzzzzzzzzzzzz solve this program",True,Love for melodies
-65,@BrainlessBimbo,2022-03-22T18:33:27Z,0,Epic intro,True,"Indian youtuber. Making videos for fun.
-
-Agar koi Galti ho to comment me batana.
-
-Like thok dijiye.
-
-Subscribe thok dijiye.
-
-Or share with your friends and relatives ❤️❤️❤️❤️.
-#support
-#share
-#subscribe"
-66,@AYUSH-fj5dv,2022-03-08T13:57:24Z,0,Thank you,True,
-67,@NishaGupta-ho8se,2022-02-27T16:15:29Z,3,Thank you sir for helping me 😊😊🙏,True,Always smile😇😇
-68,@jimiies_jam6404,2022-02-23T20:38:13Z,1,Best teacher ever,True,
-69,@pratimagkatiyar6335,2022-02-16T14:04:53Z,1,Pls try to make do programs as class 9 icse has not learnt functions yet so it would be helpful for them if you would do so,True,
-70,@nancyacharya8538,2022-02-08T17:08:16Z,0,How beautifully  u are really explaining ......I like your all videos.....,True,
-71,@jiyamaze_16,2022-02-06T03:00:41Z,1,The best explanation in have seen ever ...,True,"
-Let yourself shine as bright as sun ❤"
-72,@vaxneverdie1350,2021-12-15T01:06:19Z,1,Sir can u pls give subtitles.. It would be so helpful for me.. if u do so,True,
-73,@swetaysdav5178,2021-12-11T13:50:24Z,0,Sir sir please reply me now I won't you help with you please please 🙏🙏 because my exam is going on and I want to help with you,True,
-74,@vampire3897,2021-11-25T05:10:02Z,0,Sir sum ko shuru me hi 0 value ko dete hai aise bahut jaghe dekha hai mene 0 value bas kuch variable ko hi dete hai savko kyu nahi dete,True,
-75,@ajaykumarshukla3673,2021-11-21T13:14:31Z,0,Thanks sir a million times for teaching us in a brilliant manner,True,
-76,@rajdeepsarkar8g609,2021-11-01T06:53:03Z,0,"SIR CAN YOU EXPLAIN WITH WHILE LOOP
-PLS",True,
-77,@shashikantkumar3376,2021-10-11T05:04:43Z,2,Sir sentece based bhi bata dijiye please . School me to samajh hi nhi aata,True,
-78,@shashikantkumar3376,2021-10-11T05:03:52Z,1,❤️❤️❤️❤️ u sir,True,
-79,@udib3024,2021-10-10T10:15:30Z,0,is anyone there,True,
-80,@motivationmusic7257,2021-10-07T14:10:31Z,0,"Bhai aap software engineer ho kya 
-Ya phir kisi higher classes ko computer padhate ho
-Your way of teaching is just amazing",True,"We should always me motivated , so that we can do difficult works very easily"
-81,@Shambhavi_s,2021-09-17T09:17:52Z,3,"Can you please explain output on prepost, compound assignment and looping on control structure",True,
-82,@rahulsharma1288,2021-09-08T12:55:17Z,0,Plz give your number,True,
-83,@chittaranjansu867,2021-09-05T05:39:29Z,0,thankyou very much,True,
-84,@aryarai5933,2021-08-30T02:28:37Z,0,Dry run bhi explain kar dijiye,True,
-85,@PROGRAMING_,2021-08-20T06:36:59Z,1,Very important,True,Mohammad naam hi kafi hai aie Ho to like bhi kardo 
-86,@darkbossgaming2831,2021-08-17T00:30:29Z,0,We like learning from you sir thank you sir for making difficult programs easy,True,Please like share and subscribe to my YouTube channel 
-87,@nayansetty2926,2021-08-14T14:27:14Z,1,People like me can still have some hope on life  to achieve something after watching ur videos🙏🙏🙏🙏,True,
-88,@ritulsharma3379,2021-08-10T06:24:01Z,0,Sir you are very innocent,True,
-89,@karmioraon8811,2021-08-07T18:18:51Z,0,Sir please write everything,True,
-90,@sigma7418,2021-08-03T06:53:46Z,7,"Thanks a lot sir! A true teacher you are indeed, keep going... you have our support :) May God always bless you...",True,Subscribe or you won't get kacha Badam
-91,@RenuSharma-tm2pk,2021-07-29T09:42:30Z,0,"Good afternoon sir, my name is Samarth and I want to thank you for your videos.
-They are very nice and fantastic. 
-Sir I need a little help from as on 2nd august is my computer exam so can you please explain some more sum of series programs in your new video please sir it's a request.",True,
-92,@dhinchakdhol7110,2021-07-20T13:18:13Z,0,Can we do the power part using another variable(p) whose initial value will be 0 and then we write p++,True,
-93,@anweshadash4354,2021-07-02T22:31:05Z,1,"sir in that second type of series with alternating signs(+...-) can we initialise int sign=1;and then after sum+=i*...... 
-we can change the value by writing int sign=sign*-1;??",True,
-94,@editkaarvaibhav1999,2021-07-02T10:27:37Z,0,0.05,True,
-95,@vanshdata,2021-06-28T10:15:09Z,1,Sir your explanation is amazing bhut aap program ma ander acha sa samja rha hai thoda ander bhut bhi focus kriya to jaada acha rha ga  aap ka  videos,True,
-96,@manmaujiscricketshorts5689,2021-06-26T04:27:54Z,0,"Sir, can you plz help us with the program of arranging digits in ascending or descending order.",True,"Hi guys!!!!! 
-This is uttam from India.
-If u r also a cricket lover like me then pls pls pls subscribe to my channel for regular cricket videos."
-97,@priyankatekriwal40,2021-06-02T13:05:58Z,0,Sir your explanation is very nice,True,
-98,@asr443,2021-06-02T11:38:19Z,0,what value should we give as actual parameter in main function,True,
-99,@mohd.luqman5585,2021-05-22T04:00:18Z,3,Sir please make video on co ordinate bonding,True,
-100,@kongaramenaka1639,2021-04-11T06:31:59Z,0,Wonderful sir your explanation is ossum and I wasn't able to understand wt our school computer sir used to say but ur explanation is ossum,True,
-101,@listeningtomusicistalentidgaf,2021-04-03T10:59:18Z,3,Thanks a lot sir. It was damn awesome.,True,Ummm do i really need to write smth here? 
-102,@ashridas4744,2021-03-28T14:02:03Z,6,Sir u r the best teacher I have ever seen...!!! Neither u r too fast nor too slow...step by step u complete everything properly... I am a class 12 student but I have changed my board in class 11..so I m really facing a lot of problems... when I watch ur videos ... my confidence increases gradually!!!!,True,
-103,@aasiyaahmed5216,2021-03-25T23:30:08Z,0,Sir ki entry 😂😂,True,
-104,@ASSASIN7289,2021-03-25T17:31:48Z,1,Sir we are not genius thus plz make full programs,True,👨‍✈️🥷
-105,@chaitugaming2619,2021-03-25T04:34:08Z,0,Plz tell in English sir,True,
-106,@sohan-IA,2021-03-23T11:54:47Z,0,1 like to banta he iss vid pe ❤️,True,"How I fell being a men 
-Purposeful and motivated"
-107,@preetamkumar7651,2021-03-21T06:07:00Z,0,Sir loop ko 0 se chala sakte hai na,True,
-108,@keerthanat5051,2021-03-19T14:34:23Z,0,Sir please do in English,True,
-109,@varshav7587,2021-03-19T14:00:10Z,0,"Hi sir
-Sir please sir can u pls tell the some important programs in iterative constructs and conditional statements class 9 icse...
-Pls pls pls sir...my exam is Tomorrow morning....pls sir...reply fast as u can sir...pls sir..😖😖😓😖😓😖😔😖😔😖😓😖😔",True,"LOGO DESIGN 
-
-Hey guys.... if you want an *amazing logo design* for any of your needs( it might be for a business..... it might be for a gaming or a youtube channel...what ever it is ) to get the best logo at a ✔very low price ✔ and delivered within 4 or 5 days.... you are here to the RIGHT PLACE....
-
-
-
-My logo's would be definitely amazing, attractive,  creative, super cool and eye catching..!!!
-
-
-I can design any type of logo, like minimalist, 3D, logo animation, versatile, flat, cartoony...and many more!!!
-
-If you want an amazing logo...
-
-Please do email to...
-
-varshavijaykumar721@gmail.com 
-
-CONTENT AND STORY WRITTING
-
-If you are in need of content for your blogs, or articles or website.... and in need of any stories(mainly horror and humour genre) you still cant mail me and I will.give you the best work!!!!
-
-This could be done at a very low cost and delivered within a week or two!!!
-
-email- varshavijaykumar721@gmail.com 
-
-Please don't hesitate to mail me in case of any work needed"
-110,@arb_5,2021-03-18T03:55:27Z,0,O.08 sir aapna to dara hi diya,True,"Ꮋᴇʟʟᴏ ɢᴜʏՏ,ᴛʜɪՏ ᴄʜᴀɴɴᴇʟ ɪՏ ᴀʟʟ ᴀʙᴏᴜᴛ ɢᴀᴍɪɴɢ ɪ ᴀᴍ ᴡᴏʀᴋɪɴɢ ʜᴀʀᴅ ғᴏʀ ᴛʜɪՏ ᴄʜᴀɴɴᴇʟ . Տᴏ ᴘʟᴇᴀՏᴇ Տᴜᴘᴘᴏʀᴛ ᴍʏ ᴄʜᴀɴɴᴇʟ   ɪ ᴀɴ ɪᴍᴘʀᴏᴠɪɴɢ ᴍʏ ՏᴋɪʟʟՏ  ᴀɴᴅ ᴇᴠᴇʀʏ ʟɪᴋᴇ ᴀɴᴅ ᴄᴏᴍᴍᴇɴᴛՏ ᴍᴏᴛɪᴠᴀᴛᴇ ᴍᴇ .. ͲᎻᎪΝᏦᎽϴႮ ҒϴᎡ ᎪᏞᏞ ᎽϴႮᎡ ᏞϴᏙᎬ"
-111,@rajeevrai4657,2021-03-18T00:59:15Z,0,"He entered :
-Me:👁👄👁",True,I am a chhota bachha 😀😃😄
-112,@srastigupta1565,2021-03-17T16:46:27Z,1,"Define a class Telephone having the following description:
-
-Data MembersPurposeint prv, preto store the previous and present meter readingsint callto store the calls made (i.e. pre - prv)String nameto store name of the consumerdouble amtto store the amountdouble totalto store the total amount to be paidMember functionsPurposevoid input()Stores the previous reading, present reading and name of the consumervoid cal()Calculates the amount and total amount to be paidvoid display()Displays the name of the consumer, calls made, amount and total amount to be paid
-
-Write a program to compute the monthly bill to be paid according to the given conditions and display the output as per the given format.
-
-Calls madeRateUp to 100 callsNo chargeFor the next 100 calls90 paise per callFor the next 200 calls80 paise per callMore than 400 calls70 paise per call
-
-However, every consumer has to pay ₹180 per month as monthly rent for availing the service.
-
-Output:
-
-Name of the customer Calls made Amount to be paid .................... .......... ................. .................... .......... ................. 
-
-4 Likes
-
-ANSWER
-
-import java.util.Scanner; public class Telephone { private int prv; private int pre; private int call; private String name; private double amt; private double total; public void input() { Scanner in = new Scanner(System.in); System.out.print(""Enter Customer Name: ""); name = in.nextLine(); System.out.print(""Enter previous reading: ""); prv = in.nextInt(); System.out.print(""Enter present reading: ""); pre = in.nextInt(); } public void cal() { call = pre - prv; if (call <= 100) amt = 0; else if (call <= 200) amt = (call - 100) * 0.9; else if (call <= 400) amt = (100 * 0.9) + (call - 200) * 0.8; else amt = (100 * 0.9) + (200 * 0.8) + ((call - 400) * 0.7); total = amt + 180; } public void display() { System.out.println(""Name of the customer\tCalls made\tAmount to be paid""); System.out.println(name + ""\t"" + call + ""\t"" + total); } public static void main(String args[]) { Telephone obj = new Telephone(); obj.input(); obj.cal(); obj.display(); } }
-
-OUTPUT",True,
-113,@avishasagar5501,2021-03-13T17:03:45Z,0,"Sir sab kuch to Aap hm se kra rahe ho fir kaise samajh m ayega
-Pura program to likhna tha",True,Pubg content coming soon
-114,@RenuSingh-vb7vb,2021-03-09T14:54:01Z,2,Sir icse class 10 important program ka playlist bna dijie plzzz,True,
-115,@payalrani2103,2021-03-09T13:28:48Z,2,"Sur mujhe bass yahi smjh nhi ata ki har program m logic kaise use krte h????
-Kya har  logic ko ratna padhta h ???? Sir kaise samjh aayega that kahan pe kya logic use krein ?? Please  sir reply to my question...please",True,
-116,@arshadahmad1915,2021-03-04T18:04:11Z,0,How to do variable description?,True,
-117,@shubhangisingh5851,2021-03-02T15:44:02Z,1,Thank you sir😊,True,
-118,@shubhangisingh5851,2021-03-02T15:43:46Z,4,Sir you deserve much more than these like 💯 not only this video is helpful for us but also your all subjective chapter were interested to study ....,True,
-119,@legendshavetoshine8490,2021-02-28T20:55:20Z,1,Good explanation 👍,True,"Maut no milo 
-Nai ta meno 
-I will take your"
-120,@aayushsaharan9462,2021-02-22T15:27:53Z,0,Grand entry 😂😂😂😂,True,INDIAN 🇮🇳
-121,@vanshiiisuu872,2021-02-22T07:19:02Z,0,Love you sirr,True,
-122,@harmoniumedits5309,2021-02-21T17:24:54Z,186,Entry was so dope🤣,True,
-123,@pratyushkumar4546,2021-02-18T13:56:12Z,0,Sir Aap konse city me rahte Ho,True,
-124,@shreth7391,2021-02-18T07:53:10Z,0,Most of them are Wrong,True,
-125,@bhawanibhumij9264,2021-02-18T02:18:23Z,0,Sir can you explai sums in full program way but I liked your explanation thankyou,True,
-126,@sayanmazumder7778,2021-02-15T15:40:02Z,2,"Sir can you please show some programs for numbers ? Like Mersene numbers, Funny numbers, happy numbers, Armstrong numbers, Perfect numbers, Pallindromme numbers, Emirp numbers etc?",True,Sup boys and girls !!! 👧👨
-127,@arjunchaudhary4718,2021-02-15T01:41:41Z,0,Thank you sir,True,
-128,@pranjaliparihar7710,2021-02-05T01:57:04Z,1,Sir 9class pr based output questions plzz upload kijiye,True,
-129,@akshithaparvathy6988,2021-02-04T14:32:44Z,0,You did it very well but it is much better when u teach it in English 🙏,True,
-130,@praveenshankar1251,2021-01-17T10:41:05Z,0,Sir what a entry😂😂,True,100% original videos
-131,@rajkumartungaria6630,2021-01-16T08:43:12Z,0,Sir duck number ka video banaye na,True,
-132,@dharmeshvishwakarma6119,2021-01-15T14:18:45Z,0,Nice entry sir...👍😀😀,True,
-133,@anuramkalyan875,2021-01-05T05:16:11Z,19,0:05 😂,True,
-134,@sarthakshukla10thc36,2021-01-03T14:00:14Z,0,Aaaap bahut sidhe ho,True,Jai bhole
-135,@sukhendrapratapsinghsingh8914,2021-01-03T06:20:27Z,0,sir user se kaise input krayenge value user se??,True,
-136,@siddharthgaming8506,2021-01-02T09:25:04Z,2,Sir I am big fan of yours stay blessed you deserves a lot of subscribes,True,All technical 
-137,@skylertheslayer4863,2020-12-28T16:53:32Z,1,I am just watching  your videos from few days and i am really understanding THANKU SIRJI😁😁😍,True,
-138,@vspatel7022,2020-12-23T15:36:23Z,0,I Love you sir,True,Kindly subscribe to my you tube channel guys please
-139,@manishmishra2470,2020-12-16T15:33:15Z,1,"I m from future
-U have 100 k subscribers",True,
-140,@gargidubey7787,2020-12-15T23:27:20Z,0,Sir aakhiri factorial wala ek bar aur samjha dijiye sir plsss,True,
-141,@BS-cn9ec,2020-12-09T13:01:40Z,2,Thanks a lot sir.tomorrow is my exam.sir wish me,True,
-142,@payelbaidya7318,2020-12-06T05:21:05Z,0,"sir can u please explain the static int fact
-again",True,
-143,@utgamingandsports2208,2020-12-04T13:51:16Z,0,Thank u....... sir,True,"Like and subscribe my channel
-Please"
-144,@runabhattacharya3076,2020-11-30T04:21:17Z,0,Oi,True,
-145,@anupunsak,2020-11-28T02:38:13Z,0,Ver useful with great explanation in easy way for learner,True,
-146,@advocatenagarajan3695,2020-11-24T09:42:42Z,0,Gve english subtitles too bro,True,
-147,@manjumishra1896,2020-11-10T02:05:03Z,0,Method nhi aata sir😭😭,True,Cheap Thrills 
-148,@simranjeetkaur3816,2020-11-06T02:54:25Z,1,Sir please make videos on class 10 th icse programs iterative construct in java . Plzzzzzz I hope u will,True,Do whatever you want to do:)
-149,@manjumishra1896,2020-11-03T13:01:15Z,3,After watching More than 25 time's I understand plus minus wala program,True,Cheap Thrills 
-150,@Ayush-pk1zj,2020-10-31T06:51:25Z,1,"Sir in the sar in the second program you have done sum= sum + (sign* i) I THINK SUM SHOULD NOT NOT BE THERE IN THAT LINE IT SHOULD BE LIKE THIS sum= (sign* i), because when I did the dry rum the output was not coming",True,
-151,@manjumishra1896,2020-10-18T15:04:31Z,2,Finally after watching 5 times in two months I understand 2 question thank God 😁😁😟🙁😒🤨😜🤒😥🌜😑😫🤮😞,True,Cheap Thrills 
-152,@appnatimeayega5600,2020-10-17T19:18:25Z,0,Can you upload some more videos related to seriese,True,
-153,@ananyagupta9405,2020-10-16T03:40:14Z,0,Sir please tell why class is an composite object ❓❓,True,
-154,@AjayKumar-vh8bj,2020-10-07T09:24:10Z,1,Sir iska ek base baao,True,
-155,@subhanjanroy4062,2020-09-27T12:22:05Z,16,sir you deserve millions of subs,True,
-156,@listener4182,2020-09-27T04:19:09Z,1,In 14:02 your calling value should be f. I think.,True,"As-salamualikum waramatullah wabarkatuhu..
-
-This channel is made to deliver islamic contents.
-
-Make your heart clear then only you can understand the topics.
-
-
-Your doubts are always welcomed.
-
-
-⚠️This channel is not established to harm sentiment of any community.
-
-
-
-
-Hopefully you have become part of our family by subscribing our channel. 🔔
-
-
-Jazak'Allah khair"
-157,@meenugupta9077,2020-09-24T13:07:16Z,0,Sir how value of sign changes alternately,True,
-158,@studywithme3669,2020-09-23T13:17:11Z,0,GREAT THANKS A LOT!!! God bless u sir,True,
-159,@studywithme3669,2020-09-23T13:16:41Z,1,"are u the brother of cookingshooking guy??
-Aur mere chaturo kaise ho??! LOLL",True,
-160,@RahulSingh-sb6ol,2020-09-21T11:52:27Z,0,"sir poora samaj aagaya, thanks a lot",True,
-161,@pratiksingh1511,2020-09-14T16:29:55Z,0,Thank you sir,True,
-162,@bakchodiroox8267,2020-09-12T11:01:47Z,0,"thank you sir 
-stay blessed 
-very helpful video",True,"Yahan kuch nahi hai
-Ab jao jaake video dekho"
-163,@sakshamagarwal7317,2020-09-06T11:41:31Z,7,Wonderfully taught Sir❤️❤️ Never seen a teacher like U,True,
-164,@SunilKumar-hp1uw,2020-08-22T15:43:56Z,0,Sir can you give your bank details i wanna give you some gift from my side...you are very good sir I understood everything from here,True,
-165,@gamerzworld4938,2020-08-20T13:30:13Z,0,Sir you are the best teacher as I am trying to understand that programs but your explanation helped alot,True,
-166,@ayushbisoi5484,2020-07-27T06:47:11Z,1,Thanks sir it helped it in my exam,True,
-167,@khushboomanhas6567,2020-07-21T15:01:44Z,1,Thanks for your hard work but I have a question sir from where can I get all the programming of class 10 icse sir pls reply it's urgent ☺️🙏🙏👍,True,Just vibe alone🌠🔱
-168,@manishabhandari9481,2020-07-12T07:30:35Z,1,sir aap mahaan ho sir. such a wonderful explanantion  .sir ek doubt bhi hai ki return statement ka kya kaam hai.,True,
-169,@_shamayitamukherjee_11c10,2020-07-09T16:47:02Z,0,thank u sir fr this video Sir....................it helped me a lot,True,#THE ATHLETE VLOGS#
-170,@bapimamarrannaghar5623,2020-07-09T03:56:13Z,1,Sir u r a good  Teacher,True,
-171,@awadhrajsingh7,2020-07-04T18:58:15Z,1,"Sir, please can you make videos on the basic concepts of making any kind of programs .",True,
-172,@bhumikasah7893,2020-07-03T01:33:41Z,2,thank you so much sir i understood everything so easily.... stay blessed forever sir...it really helped me a lot...tqsm,True,
-173,@MyRocks23,2020-07-02T17:18:17Z,0,Can u do in English,True,
-174,@VijayPal-pq5kf,2020-07-02T02:56:54Z,0,Sir plzz icse ke computer ke sare chap kara do programming aap bhaut accha prhate hooo,True,
-175,@siddharthbanerjee6555,2020-06-30T15:22:17Z,3,sir you have explained the series so well . thank you very much,True,
-176,@alam5695,2020-06-21T17:10:51Z,0,Very nice sir ...... Very nice explanation sir well I am the one who requested you to make series videos. .. I have requested you from my another google account 😇😇😇  and sir you have listened to that .... Sir stay blessed...... @Sahid.,True,"If you like my video then plz don't forget to subscribe my channel 
-
-Bye 
-
-Good regards"
-177,@shivanshumall5266,2020-06-18T13:42:27Z,1,what was use of int n =10; in first program,True,
-178,@riyagaur6138,2020-06-15T03:46:26Z,1,Thanks sir for this program😎👌👌🙏🙏,True,
-179,@biswabharatikalaparishada791,2020-06-07T05:33:08Z,0,Thanks sir you are god of computer in YouTube,True,Music is just a medicine and only a unique medicine which can heal any type of disease
-180,@aashiagrani1174,2020-06-04T12:22:51Z,0,"Sir can you please solve this question 
-3+333+3333+......10 terms using scanner class ....",True,
-181,@rajatkumar915,2020-06-02T08:20:27Z,0,Thanks sir you helped me a lot to understand..,True,Extra ordinary to what you say!
-182,@BharathKumar-hw1rg,2020-06-01T14:21:23Z,0,please talk in english.....ICSE students are also in tamilnadu,True,This is the official platform of GREEN PASSION STUDIO.Here we will upload the motion posters of the short films of our side.
-183,@imaginebreaker6360,2020-05-23T06:36:04Z,0,You explain good,True,Anime
-184,@BharathKumar-hw1rg,2020-05-15T08:37:56Z,0,Plz talk in English...I am from tamil,True,This is the official platform of GREEN PASSION STUDIO.Here we will upload the motion posters of the short films of our side.
-185,@akshathdubey9763,2020-05-09T19:03:47Z,27,"sir in the second series.......can we do it by if,else statement:
-         if(i%2==0)
-            sum=sum-i;
-         else
-            sum=sum+i;
-(this way it would be less complicated)",True,😏😏😏
-186,@manickpavan7423,2020-04-06T18:11:07Z,0,Please talk in English,True,"Hi...This is pavan durai.My passion is drawing and that's why I had started this channel.If you find my videos are helpful for you to draw support me.
-
-
-Help me in improving my channel.Please do like,share and subscribe."
-187,@abhitalks3812,2020-04-05T10:10:37Z,0,u awesome sir,True,Stalker huh
-188,@bengalivinesclub879,2020-03-30T15:46:53Z,0,Txn sir,True,Funny Veins and Personal Vlogs to make you laugh do subscribe to get notification of our daily video 💓thanks family ✨
-189,@vickysoni1012,2020-03-24T14:11:26Z,0,Thank you sir your videos help a lot.,True,
-190,@prabhavathiyerra1967,2020-03-23T08:44:30Z,0,sir why do we keep  i -1 in math.pow,True,
-191,@soumikroy3811,2020-03-21T15:30:17Z,1,Sir please solve : 1+(1×2)+2+(1×2×3)+3...9+(1×2×3×4×5........ n),True,
-192,@priyanshupandey6568,2020-03-21T09:33:38Z,0,Sir selection sort bubble sort ke upar bhi ek video plz,True,
-193,@kartikjaat2785,2020-03-21T07:02:34Z,0,Not explained well🤬🤬,True,OnlY for inDian 🚩🚩🇮🇳🇮🇳
-194,@minhajjahan1834,2020-03-20T17:13:55Z,0,Osmm..da,True,
-195,@ravindrakhatana9316,2020-03-20T10:04:16Z,1,"You help us a lot 
-Thank of you for your efforts 🙏😘😘😘🙏",True,
-196,@ravindrakhatana9316,2020-03-20T10:00:59Z,0,Sir pls make video on syllabus for class 10 ICSE 🙏😘😘😘🙏,True,
-197,@guruxdeadshot6355,2020-03-18T09:55:08Z,1,Make more series which are difficult,True,
-198,@rajkishorswain.puri.odisha4235,2020-03-14T03:19:04Z,1,Thank  you  sir....this video cleared  my all doubts.....💝💝💝💝💝💖💖💖💖💖,True,
-199,@POOJARANI-sz6kx,2020-02-28T10:53:10Z,1,thank you sir,True,
-200,@shubhammishra5489,2020-02-27T14:59:27Z,1,"Sir please make video on chart that contain tax,discount sir please",True,
-201,@shubhangisingh5851,2020-02-27T13:49:58Z,0,Thankuu sir your explanation is so easy ........,True,
-202,@RahulSingh-ik3sb,2020-02-27T12:53:45Z,0,👍,True,
-203,@ankitaprasad176,2020-02-25T20:30:08Z,1,Thanks sir,True,
-204,@ranjanachakraborty2129,2020-02-25T11:22:19Z,0,thank you,True,
-205,@magicalthings6658,2020-02-24T10:26:38Z,0,"Very good explanation sir,thank you sir.",True,
-206,@timjohn2906,2020-02-21T16:58:59Z,1,Sir please constructor overloading ke upar program 😭😭😭😭😭😓😓,True,
-207,@rajnisinha730,2020-02-19T18:17:31Z,7,So hard it is to trust a guy who is always smiling.My experience told me so.,True,
-208,@naveentandon993,2020-02-19T06:06:57Z,1,Sir fact(i) kaise aya?,True,
-209,@praveenchandrayadav9678,2020-02-18T17:40:18Z,2,0:5 ping pong,True,
-210,@VijaySoni-gj1iz,2020-02-17T15:42:36Z,0,"Thanku sir ji.
-      🙏🙏",True,
-211,@mahvishkhan1976,2020-02-17T11:20:36Z,2,Sir user se kisi input karaege in scanner class,True,
-212,@komalaap4955,2020-02-13T00:40:37Z,0,Fantastic teaching,True,
-213,@raunaksingh2270,2020-02-12T23:56:59Z,2,Thanks sir ...........u make it a lot easier,True,
-214,@117_sakshamarya9,2020-02-12T18:16:12Z,1,Great work 👍👍👍👍,True,
-215,@PrinceSingh-pe1pz,2020-02-12T15:07:07Z,0,Wo bahut important hai paper mai jaror ayenge,True,
-216,@sanjoysarkar1967,2020-02-09T22:05:07Z,4,you are so humble and solutions is really great,True,
-217,@lime3023,2020-02-09T20:15:02Z,69,"Sir you explain in such an easy way that most complicated topics become fun to learn.
-Thank you for such helpful videos",True,A bl fangirl
-218,@vivekagarwal4298,2020-02-07T02:53:47Z,5,"Question 3 you did wrong
-You forgot to update the for loop
-Gor loop should start from 0 and continue till n minus 1",True,
-219,@SumitSingh-mo7dx,2020-02-04T18:44:47Z,0,Nice teacher,True,
-220,@sakshiwadhawan2801,2020-02-04T12:22:04Z,1,Plzzz explain again in  better way plzzz getting confuse plzzz plzzz,True,
-221,@jay_iitb,2020-02-03T10:46:10Z,6,Plz upload some more questions on sum series,True,
-222,@saiharsha5980,2020-02-01T16:42:44Z,1,sir webpage give is not opening sir,True,
-223,@HarmanOG,2020-02-01T11:51:48Z,0,"sir this series
-1   + 1  + 1   + 1  + 1  + 1  + 
-_________________________    +  n
-2      3    4        7     11     18",True,SUBSCRIBE TO OUR CHANNEL FOR MORE VIDEO
-224,@naveentandon993,2020-01-30T13:45:15Z,3,"How can we create a class member? 
-Anyone plz reply🙏🙏",True,
-225,@naveentandon993,2020-01-30T06:57:52Z,1,"Sir can u plz answer this: 
-1.create a user defined package in bluej
-2.create public classes Student and address in it
-3.write appropriate get and set methods to ensure proper accessibility 
-Plzzz sirrrr answer 🙏🙏",True,
-226,@naveentandon993,2020-01-29T17:06:52Z,193,Stay blessed forever dear Sir ...... 🙏🙏this channel will reach its peak point very soon🌟,True,
-227,@aditidhingra4256,2020-01-29T15:04:34Z,2,Thank you sir. Great,True,"Hello learners!
-This is a youtube channel which will guide and try to help students. Thank you if I could help you and sorry if I couldn't.
-May God bless all of us.
-Thank you.
-Gratitude always☺😊
-#icse #cbse
-
-Creator :Aditi
-(ICSE Class 10th:97%)
-(ISC Class 12th : 94%)
-100/100 in English literature class 10th 
-97/100 in English lit + grammar in 12th
-IIT BHU "
-228,@animetv428,2020-01-27T13:34:08Z,2,Ossm sir 👍🏻👍🏻👍🏻,True,Njoy to ur fullst😊
-229,@rajivranjanmahto565,2020-01-23T12:50:59Z,2,I don't understand u wrote sum+ =?? What is this plzz teach me the another method,True,
-230,@aakashmishra521,2020-01-23T03:20:42Z,13,1+1/2!+1/3!......1/n! Sir iska program kase bnega,True,
-231,@its_arrrpit,2020-01-19T05:35:35Z,2,"Sir exam me x ki value user se input krane k badle parameter me parse nhi kr skte ???
-Plzz btaiye",True,
-232,@abtec5236,2020-01-16T18:19:02Z,0,Bhai ye wali video series ki bluej  walai method se samjha do plz,True,Plz like share and subscribe my channel
-233,@viraldna4618,2020-01-15T13:49:41Z,2,"Sirr plzzzz ye doubts clear kar do......ek video upload kar dijiye plzz....Doubt🙋‍♀🙋‍♀
-1. Object calling(ISME ZYADA DOUBT HAI)
-2.STATIC AND NON STATIC VARIABLE...AND STATIC METHOD 
-3.ACTUAL AND FORMAL PARAMETERS...
-4.LOCAL VARIABLE,INSTANCE VARIABLE,DATA MEMBERS
-5.IMPURE AND PURE FUNCTION",True,Let's Do it!
-234,@viraldna4618,2020-01-12T08:14:12Z,34,"Doubt🙋‍♀🙋‍♀
-1. Object calling(ISME ZYADA DOUBT HAI)
-2.STATIC AND NON STATIC VARIABLE...AND STATIC METHOD 
-3.CALL BY VALUE & CALL BY REFERENCE...
-4.ACTUAL AND FORMAL PARAMETERS...
-5.LOCAL VARIABLE,INSTANCE VARIABLE,DATA MEMBERS
-6.IMPURE AND PURE FUNCTION
-
-
-BAAS ITNAHIII😅😅😅😅",True,Let's Do it!
-235,@anilpandey7186,2020-01-10T12:51:09Z,4,Sir board mein pattern tough aata hai ki easy,True,
-236,@timjohn2906,2020-01-10T11:45:32Z,2,"2
-2 5
-2 5 10
-2 5 10 17
-2 5 10 17 26
-Solution please sir",True,
-237,@timjohn2906,2020-01-10T05:52:18Z,1,Sare program sir app ek hi jage per please rakhdo,True,
-238,@timjohn2906,2020-01-10T05:51:30Z,1,Sir aj ap ka Naya look ka raz Kya hai,True,
-239,@priyanshujaiswal1037,2020-01-09T13:17:54Z,1,Sir please 🙏 make video on function,True,
-240,@arnavsinha834,2020-01-09T13:10:57Z,5,omg thanks!,True,since 2012.
-241,@28shreejaypandey35,2020-01-09T12:38:37Z,1,Sir plz tell us how to score good in computer..n..is it easy to get 90 Mark's coz maximum no. In teachers hand,True,
-242,@justsomerandomguy9706,2020-01-09T11:11:52Z,7,Thanks sirrrrrrrrrrrrrr best teachers and sirrr plzzz on dda programs related to icse syllabus,True,
-243,@viraldna4618,2020-01-09T11:04:52Z,5,Thanks sir...😀😀😀....btw aj apka entry kuch alag prakar se hua,True,Let's Do it!
-244,@AmanSingh-cf4pc,2020-01-09T10:27:29Z,1,which sign was there in last prog. in denominator?,True,
-245,@parveenzahrazaidi353,2020-01-09T10:06:16Z,1,thank you,True,Videos
-246,@gamerxshubham2746,2020-01-09T09:50:37Z,6,Sir series wala program board exam me aa skta hai??,True,"Hey This Is Shubham And Welcome To My Channel I Upload Most Amazing Anime and Gaming Videos. I Decided To Do More Anime Contents On My Channel.  Feel Free To Subscribe To My Channel If You Like My Content.
-I upload Top 5/Top 10 Anime Recommendation and Anime Review.
-And
-I upload free fire videos and other gaming videos...
-
-
-
-  Thank You!!
-
-
-
-
-Greetings From India
-
-For business enquirys contact me
-Sinhashubham1723@gmail.com"
-247,@adityap4222,2020-01-09T09:50:33Z,4,I have exam tommorw sir thanks for the help,True,
-248,@i_am_android,2020-01-09T09:49:46Z,5,I am your biggest fan😎✌️✌️🥰🥰,True,"Hii there 👋🏻 ,
-Myself Aman Nishad , An Aspiring Native Android App Developer who is passionate about developing apps that solve the real-world problems of people.
-
-Hope you are doing Extremly well !!
-"
-249,@vivekagarwal4298,2020-01-09T09:49:27Z,3,1st,True,
-250,@vivekagarwal4298,2020-01-09T09:49:20Z,3,Hello,True,
+66,@preetypranami8283,2024-05-30T05:03:51Z,0,141 and 285,True,
+67,@chandrikanimesh9345,2024-05-30T05:03:37Z,14,Genuinely aman your upbringing reflects in your behaviour. You and your family is so down to earth❤.,True,
+68,@saakshinaik6449,2024-05-30T05:02:50Z,0,Maza aa raha daily vlogs 😅,True,
+69,@rajsouth101,2024-05-30T05:00:51Z,4,Iti sikh family se hai kya..??,True,
+70,@navneetkaur-sq6zm,2024-05-30T04:58:24Z,1,WAHEGURU G SATNAM G🙏♥️🙏,True,
+71,@Bluegreenredwhite,2024-05-30T04:56:44Z,0,Congratulationssssss❤❤❤ maine aaj dekha ❤❤❤ to both you,True,
+72,@SachinK-lm7bq,2024-05-30T04:56:18Z,3,Bilkul sahi baat boli aapne jab hum kisi ko bure comments karte to h but apni khamiya bhul jate h or khud ki zuban itni gandi kr lete h ki har kisi ko Bina jaane kuch bhi keh dete h isse saamne valo ko impect toh padega hi saath hi apne galat soch ko bhi itna build krte h chahe samne vale ko hurt ho ya kuch bhi koi frk ni,True,
+73,@NehaChugh-ys7ox,2024-05-30T04:54:53Z,0,Bhutt acha lagta h apke vlogs dekh kar bhut baar same vlog repeat pe b dekha h lekin maza aata h 😂❤,True,
+74,@mansi9778,2024-05-30T04:53:32Z,0,Di aap ne sir par scrap kyo rakha h,True,
+75,@sp-nl8de,2024-05-30T04:52:33Z,66,Aman bhaiya please make a video with seema and sunny and share their love story ❤😊😊😊please please please,True,
+76,@aishwaryamodanwal9767,2024-05-30T04:52:01Z,0,❤❤❤,True,Education is the most powerful weapon which you can use to change the world 🌏🌏
+77,@simranagarwal3077,2024-05-30T04:49:20Z,0,wishing happy health to d baby❤,True,
+78,@sp-nl8de,2024-05-30T04:49:14Z,8,"6:41 Soo true aman , glad you speak about it 😊😊always spread positivity ❤",True,
+79,@kaverikashyap4354,2024-05-30T04:48:51Z,0,Chota baby ❤❤,True,
+80,@a__devout,2024-05-30T04:46:34Z,0,True saying Aman Bhaiya ... Haters are everywhere... Their minds are unable to think something positive about someone...,True,"जननी जन्म भूमिश्च स्वर्गादपि गरीयसी ॥
+Hey, people you'll get fresh, correct, informative, knowledgeable & entertaining content here. "
+81,@DrishyaUpadhyay,2024-05-30T04:46:10Z,0,Aunty looks very young even at this age ❤,True,
+82,@haneenshehzad7067,2024-05-30T04:45:15Z,0,Favourite week🙏🏻❤️,True,
+83,@khyatiii,2024-05-30T04:44:14Z,0,1,True, :)
+84,@khyatiii,2024-05-30T04:42:38Z,1,285,True, :)
+85,@iishitagupta,2024-05-30T04:42:08Z,0,God bless you all ❤,True,
+86,@SachinK-lm7bq,2024-05-30T04:42:08Z,0,Congratulations chotu Aman God bless you rabb aapko zindagi ki har khusi de lambi Umar or khub saari tarraki de or har vo bure logo se aapko or aapki Puri family ko bacha k rakhe ❤ Aman bhaiya ki smile dekh k Dil khush ho jata h ghr ki Ronak,True,
+87,@JyotiYadav-zv3fb,2024-05-30T04:41:53Z,0,Good morning bhaiya and iti bhabhi and Tejas baby ❤,True,
+88,@saniaferoz5290,2024-05-30T04:40:23Z,0,Aman bhaiya mai aapka vlogs dekhna shuru ki kuch din phele . Aap apne vlogs se bhaut kuch sikhate hai jese  family ko kese happy rakhe all the time . Choti choti present se ya acchi baat and care karna . 🤗☺️,True,
+89,@kheewajass3389,2024-05-30T04:39:12Z,0,Baby ka face dikhaado jldi se plzz,True,
+90,@kritikasharma1281,2024-05-30T04:38:50Z,0,Anish bhaiya ko lao na vlogs mein,True,
+91,@meerasoni8162,2024-05-30T04:31:23Z,0,Congratulations to both of you guys for blessed with baby boy 💐💐,True,
+92,@ankushvarma4327,2024-05-30T04:31:21Z,0,First comment cal didi ekadam daku dikh rahi thi ship ❤❤❤❤😂 ki,True,
+93,@dharaparmar8677,2024-05-30T04:31:18Z,0,Jai siya ram❤,True,
+94,@khyatiii,2024-05-30T04:31:17Z,0,❤❤❤,True, :)
+95,@ishanipopat,2024-05-30T04:31:09Z,0,Daily vlogs dekhti hu please read my comments please,True,
+96,@ishanipopat,2024-05-30T04:30:49Z,0,Aap Ahmedabad aao me Ahmedabad se hu,True,
+97,@ishanipopat,2024-05-30T04:30:32Z,0,First comment,True,
